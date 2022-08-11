@@ -1,6 +1,6 @@
 # MINI-GAME-PRODUCTION-II
 ## Introduction
-A mini-game. The game mechanism is that the player uses laser magnetic weapons to eliminate the robots for each level. 
+The game mechanism is that the player uses laser magnetic weapons to eliminate the robots for each level. 
 
 
 

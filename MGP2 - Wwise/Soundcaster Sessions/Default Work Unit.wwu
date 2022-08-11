@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B789F398-FE97-43CE-8A6E-6362C06AB4BD}" SchemaVersion="97">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{B789F398-FE97-43CE-8A6E-6362C06AB4BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Sidechain" ID="{2B00745E-6A80-4C39-88C4-C57E7C1D7FBC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="MagnetGun_BluePolarity" ID="{78C8009E-F972-47F3-AF1A-C6962984FFDB}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Objects_Explosion" ID="{1F769866-E913-4B66-9BD1-33FC7DDB2E06}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Hover" ID="{4F516369-136E-4C30-952C-8FA8ABDC334F}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Start" ID="{0B6102DC-817E-4908-9FAF-792FAC19840B}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Soundtrack 2 DEMO 3" ID="{12FF7412-CC6F-4968-89FD-FE60029A8D7E}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="MagnetGun_OutOfRange" ID="{D0B9CA3A-78B5-4590-8E0E-32E9AAB58997}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="LobbyMusic" ID="{AA4A4A81-E4C9-4880-9C6C-B4CC480092AE}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Rnd_impact" ID="{0A583ECC-17EE-4328-91E0-DDCD2A3CA286}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GravityGun_Shot" ID="{DEBD4460-2D1B-4938-A276-CF0C7A3D1543}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Soundtrack 2 DEMO 3" ID="{1EAF33B8-4BDB-4A6C-B5FD-42E338C2DC66}" WorkUnitID="{96ADA282-2F8F-4C70-827C-674B87F34463}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GravityGun_CantShoot" ID="{DF292769-4928-4FBB-9CB7-833FF8C90136}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GravityGun_Pickup" ID="{6C0DE775-121B-434C-8C70-2A426408FCBD}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EvilTwin_Dialogue_ LVL1_Reception" ID="{F34686EF-E08F-4C66-9991-931DAEB09B94}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Music_Volume" ID="{1914A9CC-27CA-427D-80DD-F5BA964BA7B1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RelativeTime_PreBattleMusic" ID="{412F8244-DAE6-43BA-9902-C2698B183171}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_enemy" ID="{4D811389-4618-4411-9C33-36C4B6899790}"/>
+							<Value>-41.1382978723404</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_weapon" ID="{CA88251C-4ABF-460F-A957-93CEBAD8D0AA}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Occlusion_Volume" ID="{719D3A11-FF1C-4B89-9739-9B68188AFE22}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Sidechain_explosives" ID="{9483EA5C-432C-4BD1-85D3-A0CCB04824B2}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFX_Volume" ID="{E91AF184-2B1C-4C05-8F44-094DBAF9CAEA}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Occlusion_LoPass" ID="{B6006534-315C-4D18-9E88-1CFC3E5AE878}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="DistanceToPlayer" ID="{C0B64AF0-ECAF-4D89-A7B8-A77DF136BB8D}"/>
+							<Value>64.327917282127</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{F5C06B99-4EE4-4A51-8930-A6A408D301A3}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Metal" ID="{1425C0EA-8006-4978-90D9-64CECFE2A4D0}"/>
+						<CurrentSwitchRef Name="Run" ID="{877CC84F-0619-4B50-B2EF-E4F99D3E8045}"/>
+						<CurrentSwitchRef Name="Metal" ID="{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}"/>
+						<CurrentSwitchRef Name="Fast" ID="{F8BEE6C8-6E32-4850-BF6F-3DECAC9CCFCB}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

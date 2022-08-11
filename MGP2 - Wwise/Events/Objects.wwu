@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B49A2FB7-6BA0-4928-842D-260D5CBF8DE8}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Objects" ID="{B49A2FB7-6BA0-4928-842D-260D5CBF8DE8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Objects_Sliding" ID="{BF84BADA-87D5-431F-9623-D1FBE4E8FF47}" ShortID="512583729">
+					<ChildrenList>
+						<Event Name="Metal_Slide" ID="{14848251-728D-4E85-8DBD-94B597BA0DC1}">
+							<ChildrenList>
+								<Action Name="" ID="{D2505BC9-954C-4723-96A7-18C341694A4D}" ShortID="811192899">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spheres_Metal_Slide" ID="{52457F10-9057-4208-A429-4FFC33B311E7}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Metal_Slide_STOP" ID="{65AE6350-BC7A-4D51-AF8B-5D0DF5B7A1DF}">
+							<ChildrenList>
+								<Action Name="" ID="{5B8448FD-CC2D-45DE-B863-E4F056C88851}" ShortID="702515551">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spheres_Metal_Slide" ID="{52457F10-9057-4208-A429-4FFC33B311E7}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objects_GravityShot" ID="{E1F57B7A-131E-4646-9675-53FB13443739}" ShortID="392743787">
+					<ChildrenList>
+						<Event Name="Metal_Shot" ID="{377C5344-5888-4A58-8CCE-21BA23AE4753}">
+							<ChildrenList>
+								<Action Name="" ID="{9929E488-0686-40AF-84E6-28A45398F8CC}" ShortID="825347941">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spheres_Metal_GravityGun_Shot" ID="{72731870-EE1C-46B1-87EC-72A6BE555555}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objects_Impact" ID="{ACFB368C-7684-421D-819E-59DFACAEE31B}" ShortID="655512112">
+					<ChildrenList>
+						<Event Name="Metal_Impact" ID="{580C4208-7A83-4A4A-BC18-BFE7AD64672A}">
+							<ChildrenList>
+								<Action Name="" ID="{2CDA8E13-84EF-462B-BD33-8EB943C8FA7C}" ShortID="759591508">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Spheres_Metal_Impact" ID="{FF01552A-F6C0-4FAD-ABDE-D3C560AFEADD}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objects_PolarityEmitter" ID="{DF990599-1CEA-410F-91AE-0644A60E5EF1}" ShortID="640966713">
+					<ChildrenList>
+						<Event Name="Objects_PolarityEmitter_Blue" ID="{7DD8857F-A036-4D02-BD31-AA714BE58FD1}">
+							<ChildrenList>
+								<Action Name="" ID="{D42EE6F3-C99D-4945-9F4D-723DB79F525F}" ShortID="874207362">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolarityStateEmitter_Blue" ID="{CF68D942-E07C-43F7-BA68-860451EBC85E}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Objects_PolarityEmitter_Red" ID="{56596F8F-9F81-4CB1-93F3-BFF5D75D47B9}">
+							<ChildrenList>
+								<Action Name="" ID="{302B3D50-C43A-4E4C-A223-3A43B32467D3}" ShortID="203912633">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PolarityStateEmitter_Red" ID="{E9080624-3AED-4105-94A3-B83564F7ADBD}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objects_Explosion" ID="{03149405-84C1-45B2-BFAF-E0EF58E21670}" ShortID="578443778">
+					<ChildrenList>
+						<Event Name="Metal_Explosion" ID="{5808B23A-295C-485A-9040-42D9D9929327}">
+							<ChildrenList>
+								<Action Name="" ID="{8B8F0253-2AD2-4D55-A703-8A5948BB97F6}" ShortID="1016898022">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Objects_Explosion" ID="{1F769866-E913-4B66-9BD1-33FC7DDB2E06}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Objects_Interactebles" ID="{A83B546E-601A-4FBB-916C-252B17247CF2}" ShortID="743741287">
+					<ChildrenList>
+						<Folder Name="Laser" ID="{2527E22B-9AEE-4F3F-BCC4-600FF2481879}" ShortID="343811480">
+							<ChildrenList>
+								<Event Name="Laser_Static_Start" ID="{1CA0552F-4EDC-4639-8111-520825946F28}">
+									<ChildrenList>
+										<Action Name="" ID="{D41DD973-C78D-42B7-9E1B-647041F9B086}" ShortID="832344603">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Laser_Static" ID="{A4B8A0B9-69B4-44CE-BFE8-FF856F8D10E5}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Laser_Static_Stop" ID="{08C7F3CD-0404-4402-9258-081AC332465E}">
+									<ChildrenList>
+										<Action Name="" ID="{950C0A1A-39B3-4532-A603-18AA28EA6EFC}" ShortID="798992575">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Laser_Static" ID="{A4B8A0B9-69B4-44CE-BFE8-FF856F8D10E5}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Laser_Hit" ID="{60FE0419-978C-45EC-87FD-7E0D10B06997}">
+									<ChildrenList>
+										<Action Name="" ID="{B8DAEECE-17CB-423E-BD43-053A16BD8600}" ShortID="466074819">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Laser_Hit" ID="{DAA9F19B-50FD-44C0-BABA-F1E4908BF658}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Stomper" ID="{6DFEDD1E-B0B6-43B4-9113-43D2E82840B5}" ShortID="427678020">
+							<ChildrenList>
+								<Event Name="Stomper_Impact" ID="{C24751BB-11D8-4232-9A82-0617FBB58089}">
+									<ChildrenList>
+										<Action Name="" ID="{F5873CDB-68D9-4854-ACE3-4E9BD28B8D4C}" ShortID="660606690">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stomper_Impact" ID="{29D8B174-3A88-4F94-BF19-B97DB294F61C}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stomper_UpMovement" ID="{16FFB17D-2D49-4554-8DD1-1B496F0F5AEE}">
+									<ChildrenList>
+										<Action Name="" ID="{01516D2D-E582-4099-A1DF-FC13B9E6BBB1}" ShortID="401586105">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stomper_Up" ID="{A15F030E-3380-4D37-834B-DE6EE580A406}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stomper_DownMovement" ID="{DE4A3411-592B-45CD-8315-85D81AB165C1}">
+									<ChildrenList>
+										<Action Name="" ID="{9D4217BC-1E23-40A0-B88F-AF0D6D358374}" ShortID="633144600">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Stomper_Down" ID="{69B37691-EE32-4760-8715-0653354CA7B5}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Radio_STOP" ID="{AC3E7D26-B252-458C-983F-93FC12E02063}">
+							<ChildrenList>
+								<Action Name="" ID="{F6D0895A-6203-40D1-8D89-A8BEFC158674}" ShortID="277927905">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbyMusic" ID="{AA4A4A81-E4C9-4880-9C6C-B4CC480092AE}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Radio_START" ID="{E682042A-75BB-4F7B-AB10-FFCAA34CBC7B}">
+							<ChildrenList>
+								<Action Name="" ID="{36054C51-23BA-42F7-8D00-9B770BEF906A}" ShortID="902241126">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LobbyMusic" ID="{AA4A4A81-E4C9-4880-9C6C-B4CC480092AE}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

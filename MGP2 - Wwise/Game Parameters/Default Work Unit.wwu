@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{915139AE-0FFC-4029-B446-B13C4A4D5289}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{915139AE-0FFC-4029-B446-B13C4A4D5289}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Occlusion" ID="{6FF23378-E1BC-4DEF-AD5D-9F9C45AD51F3}" ShortID="466785300">
+					<ChildrenList>
+						<GameParameter Name="RTPC_Occlusion_LoPass" ID="{B6006534-315C-4D18-9E88-1CFC3E5AE878}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_Occlusion_Volume" ID="{719D3A11-FF1C-4B89-9739-9B68188AFE22}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player" ID="{33A9785D-FA91-4D57-B856-AF4DB96E2352}" ShortID="199554357">
+					<ChildrenList>
+						<GameParameter Name="DistanceToPlayer" ID="{C0B64AF0-ECAF-4D89-A7B8-A77DF136BB8D}">
+							<PropertyList>
+								<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="0.4"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="0.4"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Sidechain" ID="{C05A5B20-FF53-4988-9395-DB1B66B10E41}" ShortID="545860998">
+					<ChildrenList>
+						<GameParameter Name="Sidechain_explosives" ID="{9483EA5C-432C-4BD1-85D3-A0CCB04824B2}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_weapon" ID="{CA88251C-4ABF-460F-A957-93CEBAD8D0AA}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Sidechain_enemy" ID="{4D811389-4618-4411-9C33-36C4B6899790}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="-48"/>
+								<Property Name="Max" Type="Real64" Value="0"/>
+								<Property Name="Min" Type="Real64" Value="-48"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Time" ID="{9C6F0F80-04A6-4400-9A9E-F14DD6AEA9A8}" ShortID="502732941">
+					<ChildrenList>
+						<GameParameter Name="RelativeTime_PreBattleMusic" ID="{412F8244-DAE6-43BA-9902-C2698B183171}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+								<Property Name="RTPCRamping" Type="int16" Value="1"/>
+								<Property Name="SlewRateDown" Type="Real64" Value="20"/>
+								<Property Name="SlewRateUp" Type="Real64" Value="20"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{5ED9B449-F3AA-4CF2-B553-33A7FD907D32}" ShortID="698016437">
+					<ChildrenList>
+						<GameParameter Name="SFX_Volume" ID="{E91AF184-2B1C-4C05-8F44-094DBAF9CAEA}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Music_Volume" ID="{1914A9CC-27CA-427D-80DD-F5BA964BA7B1}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="100"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

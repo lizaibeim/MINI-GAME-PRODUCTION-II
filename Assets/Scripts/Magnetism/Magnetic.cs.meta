@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 96ba5351eaca8674fa7ea5eed4efa2e2
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blueRangeIndicator: {fileID: 2496244440396389188, guid: d9636ce7e76090246a34acef5c91b40f,
+      type: 3}
+  executionOrder: 50
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

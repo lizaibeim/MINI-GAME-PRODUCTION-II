@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 259f2565ff2ba5e4abdc84027d6f3dcb
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 663d28db65348b64a92a3e82391e5389
+  - enabled: 1
+    path: Assets/Scenes/Blackbox/Level_01.unity
+    guid: ac5ec4b9af39e6c49950a97fb3dffe3f
+  - enabled: 1
+    path: Assets/Scenes/Blackbox/Level_02.unity
+    guid: 9b8725df60378a744b652bdbd06b5490
+  - enabled: 1
+    path: Assets/Scenes/Blackbox/Level_03.unity
+    guid: cb14b3bdfdb102a4faa208f208bd2849
+  - enabled: 1
+    path: Assets/Scenes/Blackbox/Level_04.unity
+    guid: 3546c31378561e948b05fc2ad73929bd
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 5b0d54310c05e2c4b92e1af03b66813f
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 3c78af113e397d74cb34373f2ad7b60c,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: ec491fef67d3c9546b8d8feb72b2c53d,
+      type: 2}

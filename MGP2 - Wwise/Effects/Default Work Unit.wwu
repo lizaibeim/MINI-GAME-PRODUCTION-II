@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9BE981D2-A988-42CC-A082-0C86749AA301}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{9BE981D2-A988-42CC-A082-0C86749AA301}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Sidechain_Meter" ID="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+						<Property Name="Hold" Type="Real32" Value="0.16"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

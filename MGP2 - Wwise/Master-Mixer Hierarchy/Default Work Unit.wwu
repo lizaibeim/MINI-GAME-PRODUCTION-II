@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{32DE7468-3267-4512-B33A-A3AD237C91F0}" SchemaVersion="97">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{32DE7468-3267-4512-B33A-A3AD237C91F0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{04E4DF5C-2708-4FA7-A0B9-0E7FB3390DC6}" WorkUnitID="{771314C7-81AD-442D-9973-736AB8816F35}"/>
+						</Reference>
+						<Reference Name="Effect0">
+							<Custom>
+								<Effect Name="Wwise_Gain_(Custom)" ID="{7C70FC4F-9FA6-4FB3-9D74-7574BBAD9FFA}" ShortID="921223298" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<PropertyList>
+										<Property Name="FullBandGain" Type="Real32" Value="17"/>
+									</PropertyList>
+								</Effect>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="World" ID="{C4A1B3AF-0DE9-4A54-952B-AB255EA62F50}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7313FD40-0235-40FB-9090-FF40BA3CC83A}" ShortID="633138585">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFX_Volume" ID="{E91AF184-2B1C-4C05-8F44-094DBAF9CAEA}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{94440E68-670B-466A-AE04-703F621D1190}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="17"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Ambient" ID="{40862122-266A-4FFF-87D8-717C27794D63}"/>
+								<Bus Name="AUX" ID="{3C4E1FD7-6824-48B1-AAC9-2DD08396DD8C}">
+									<ChildrenList>
+										<Bus Name="Region_Room1" ID="{DCE92A39-FB1D-4D83-A1E6-289428E4173B}">
+											<ChildrenList>
+												<AuxBus Name="Coridor" ID="{2B2DDBAE-521C-4DE6-99C5-8328EA694175}"/>
+												<AuxBus Name="Instrance" ID="{6746E9B6-81BB-47C9-86F3-0A87BBC3AAA1}"/>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Enemies" ID="{0138FFDB-362F-4D37-93A5-D82ADCD1128C}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="Sidechain_Meter" ID="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}" WorkUnitID="{9BE981D2-A988-42CC-A082-0C86749AA301}"/>
+										</Reference>
+										<Reference Name="Effect1">
+											<Custom CreatedFrom="{6D154498-FF6D-4823-96FC-56841B70E079}">
+												<Effect Name="Hall_Large_(Custom)" ID="{1BB01DAB-B808-4E6A-8697-25CC7203013B}" ShortID="782604343" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<PropertyList>
+														<Property Name="Density" Type="Real32" Value="70"/>
+														<Property Name="DryLevel" Type="Real32" Value="-2.3"/>
+														<Property Name="ERLevel" Type="Real32" Value="-88"/>
+														<Property Name="ERPattern" Type="int32" Value="15"/>
+														<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+														<Property Name="Filter1Gain" Type="Real32" Value="3"/>
+														<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+														<Property Name="HFDamping" Type="Real32" Value="3.1"/>
+														<Property Name="PreDelay" Type="Real32" Value="74"/>
+														<Property Name="Quality" Type="int32" Value="16"/>
+														<Property Name="ReverbLevel" Type="Real32" Value="-41"/>
+														<Property Name="RoomShape" Type="Real32" Value="79"/>
+														<Property Name="RoomSize" Type="Real32" Value="74"/>
+													</PropertyList>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Objects" ID="{45E3E5E1-FF32-49E7-9360-50F8A309D512}">
+									<ChildrenList>
+										<Bus Name="Explosives" ID="{408C9B9C-6469-4539-A076-6AE99E78D26F}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}">
+														<Effect Name="Sidechain_Meter_(Custom)" ID="{383E6E8E-136C-4D1F-A6BD-B98E2E7F11F4}" ShortID="759217908" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+															<PropertyList>
+																<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+																<Property Name="Hold" Type="Real32" Value="0.16"/>
+																<Property Name="ReleaseTime" Type="Real32" Value="0.2"/>
+															</PropertyList>
+															<PluginData>
+	<GameParameter Name="Sidechain_explosives" ID="{9483EA5C-432C-4BD1-85D3-A0CCB04824B2}"/>
+</PluginData>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+										<Bus Name="Sidechained_Objects" ID="{0702811F-4F98-4188-AFB2-ED2CF8151E57}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}">
+														<Effect Name="Sidechain_Meter_(Custom)" ID="{D09037AC-6B1E-4EB9-B984-8FEE12FEE9BF}" ShortID="718497001" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+															<PropertyList>
+																<Property Name="AttackTime" Type="Real32" Value="0.2"/>
+																<Property Name="ReleaseTime" Type="Real32" Value="0.3"/>
+															</PropertyList>
+															<PluginData>
+	<GameParameter Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}"/>
+</PluginData>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Player" ID="{48B7FE80-82FC-4B0F-84CA-4DEEBE9E1325}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<ObjectRef Name="Hall_Large" ID="{6D154498-FF6D-4823-96FC-56841B70E079}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="Weapons" ID="{6FD7D7B6-6D44-42F7-9289-0E93E32ACEFC}">
+									<ChildrenList>
+										<Bus Name="EnemyWeapon" ID="{458E1DB0-13E4-4354-ADCA-13DDDD76FE60}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}">
+														<Effect Name="Sidechain_Meter_(Custom)" ID="{8015E74E-9EA5-4921-97A6-BCFDB65B89A1}" ShortID="399162061" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+															<PropertyList>
+																<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+																<Property Name="Hold" Type="Real32" Value="0.16"/>
+															</PropertyList>
+															<PluginData>
+	<GameParameter Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}"/>
+</PluginData>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+										<Bus Name="PlayerWeapon" ID="{D8A0D0EC-7549-43E5-BE41-C2F372053D55}">
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}">
+														<Effect Name="Sidechain_Meter_(Custom)" ID="{A2DD1913-CC55-4454-828A-289F2F566F3B}" ShortID="1042923610" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+															<PropertyList>
+																<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+																<Property Name="Hold" Type="Real32" Value="0.16"/>
+															</PropertyList>
+															<PluginData>
+	<GameParameter Name="Sidechain_weapon" ID="{CA88251C-4ABF-460F-A957-93CEBAD8D0AA}"/>
+</PluginData>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Dialogue" ID="{A4224D95-5A55-40ED-92B0-BDC4E2FCF489}">
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom CreatedFrom="{63AEA271-48C8-46AB-90CB-DB4C35D0687F}">
+												<Effect Name="Sidechain_Meter_(Custom)" ID="{3B873074-8147-4280-A177-B0C10FFD50BC}" ShortID="372724691" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+													<PropertyList>
+														<Property Name="AttackTime" Type="Real32" Value="0.1"/>
+														<Property Name="Hold" Type="Real32" Value="0.16"/>
+														<Property Name="ReleaseTime" Type="Real32" Value="2"/>
+													</PropertyList>
+													<PluginData>
+	<GameParameter Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}"/>
+</PluginData>
+												</Effect>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Non-world" ID="{1600B81E-9F13-47A4-9CD5-F4CD4632455B}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{BCBDD48F-41E0-40D2-876A-48F618A2F961}" ShortID="774393690">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Music_Volume" ID="{1914A9CC-27CA-427D-80DD-F5BA964BA7B1}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{83B5D729-B828-43D0-90B6-29B6623187B5}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Music" ID="{55FFF239-9B7E-4104-AD42-68BE3D96B08C}">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{AC92342C-8A84-46CA-AC84-AB9867B0E6BD}" ShortID="933530302">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Sidechain_enemy" ID="{4D811389-4618-4411-9C33-36C4B6899790}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{02BB721C-3929-4F16-B334-EBCB6051FEB3}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-42.78877</XPos>
+																<YPos>-1.1788</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-24.9852</XPos>
+																<YPos>-3.31719</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4.74907</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{6E29C853-B24E-4136-9DDD-01797A236691}" ShortID="839439908">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Sidechain_weapon" ID="{CA88251C-4ABF-460F-A957-93CEBAD8D0AA}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0E09F8E8-D0F3-488E-86AB-ABF0DEAD8BBB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-31.5874</XPos>
+																<YPos>-0.80236</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-18.96605</XPos>
+																<YPos>-1.43375</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-1.8114</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{459C06A9-7DAC-477E-9D53-27F70A602843}" ShortID="291988392">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Sidechain_explosives" ID="{9483EA5C-432C-4BD1-85D3-A0CCB04824B2}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{0D7530A6-C7BE-42AC-83F7-D46D7FA74187}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-45.37667</XPos>
+																<YPos>0.0538</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>-37.29394</XPos>
+																<YPos>-1.19757</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-2.4693</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{561427B0-6E89-46C0-A6E0-F05C56736FE8}" ShortID="499358163">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Sidechain_objects" ID="{C38E07F8-6546-445E-913B-5A13744CAC16}" WorkUnitID="{915139AE-0FFC-4029-B446-B13C4A4D5289}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C6052CA7-2D59-43C2-A1F9-82DBFF3AE0EF}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>-48</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>-42.78877</XPos>
+																<YPos>-1.1788</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>-38.00294</XPos>
+																<YPos>-3.01317</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-4.69627</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+								</Bus>
+								<Bus Name="UI" ID="{DE4A9A75-A568-4C24-9BDB-C8C99C2FA197}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

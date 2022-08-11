@@ -1,0 +1,1261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7754ff34f4e04a4b8566cbc380337d7, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 9a63c417d78e0f4e97855b9333207a38
+    GuidInternal: 
+    m_lastTime: -8586019547722127458
+    List: []
+  - PhysicalPath: Virtual Acoustics\Factory Reflect Acoustic Textures.wwu
+    PathAndIcons:
+    - ElementName: Factory Reflect Acoustic Textures
+      ObjectType: 12
+    ParentPath: Factory Reflect Acoustic Textures
+    guid: 6b663d46a83ca54f8b4a5fef12b883f6
+    GuidInternal: 
+    m_lastTime: -8586033490320084379
+    List:
+    - name: Acoustic_Banner
+      guid: f2532d2fccda8e408b8898b1b52a26d6
+      id: 4168643977
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Acoustic_Banner
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Acoustic_Banner
+    - name: Anechoic
+      guid: 32c20a8be202de4ebeacfdd1a900e3ed
+      id: 1873957695
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Anechoic
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Anechoic
+    - name: Brick
+      guid: a9a586b004f2534ca838bdb18b18f6d6
+      id: 504532776
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Brick
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Brick
+    - name: Carpet
+      guid: 8975223456dc604296c4b9f4b669092b
+      id: 2412606308
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Carpet
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Carpet
+    - name: Concrete
+      guid: 001cf85c9628e04aaf7c3080bdaba682
+      id: 841620460
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Concrete
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Concrete
+    - name: Cork_Tiles
+      guid: 19c9d2305f92434189063dbb3c4ae5e2
+      id: 3195498748
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Cork_Tiles
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Cork_Tiles
+    - name: Curtains
+      guid: 339ee6f8975c6849b508a1535f2d66e8
+      id: 2928161104
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Curtains
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Curtains
+    - name: Drywall
+      guid: f4e3a4680b4c8746a8b8a84db93dbc8f
+      id: 3670307564
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Drywall
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Drywall
+    - name: Fabric
+      guid: 32d581836edbed4ea7a3bc7b0a0b8ba8
+      id: 1970351858
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Fabric
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Fabric
+    - name: Mountain
+      guid: 313793c51a00b44a98dd9b033a8c8eab
+      id: 513139656
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Mountain
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Mountain
+    - name: Textures
+      guid: a3121e7828e3df4a8bba5fb89c74031d
+      id: 1276632493
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      Path: Factory Reflect Acoustic Textures\Textures
+    - name: Tile
+      guid: c4da82a82a13b747ba9db9907ba29cc0
+      id: 2637588553
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Tile
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Tile
+    - name: Wood
+      guid: 96bcff1fe76f9e48ba6c7c14a71391ae
+      id: 2058049674
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood
+    - name: Wood_Bright
+      guid: e5d1857ba2c1634e9a13cec54b641adc
+      id: 4262522749
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Bright
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Bright
+    - name: Wood_Deep
+      guid: 8e474652dac50c4ea0dec98d1479529a
+      id: 1755085759
+      PathAndIcons:
+      - ElementName: Factory Reflect Acoustic Textures
+        ObjectType: 12
+      - ElementName: Textures
+        ObjectType: 4
+      - ElementName: Wood_Deep
+        ObjectType: 15
+      Path: Factory Reflect Acoustic Textures\Textures\Wood_Deep
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 6874de3267321245b33aa3ad237c91f0
+    GuidInternal: 
+    m_lastTime: -8586009280967734195
+    List:
+    - name: Ambient
+      guid: 222186406a26ff4f87d8717c27794d63
+      id: 77978275
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: Ambient
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\Ambient
+    - name: AUX
+      guid: d71f4e3c2468b148aac92dd08396dd8c
+      id: 983310469
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: AUX
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\AUX
+    - name: Coridor
+      guid: aedb2d2b1c52e64d99c58328ea694175
+      id: 1839143019
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: AUX
+        ObjectType: 2
+      - ElementName: Region_Room1
+        ObjectType: 2
+      - ElementName: Coridor
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Coridor
+    - name: Enemies
+      guid: dbff38012f36374d93a5d82adcd1128c
+      id: 2242381963
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: Enemies
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\Enemies
+    - name: Instrance
+      guid: b6e94667bb81c94786f30a87bbc3aaa1
+      id: 3841311380
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: AUX
+        ObjectType: 2
+      - ElementName: Region_Room1
+        ObjectType: 2
+      - ElementName: Instrance
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Instrance
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: 39f2ff557e9b0441ad4268be3d96b08c
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Non-world
+        ObjectType: 2
+      - ElementName: Music
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Non-world\Music
+    - name: Non-world
+      guid: 1eb80016139fa4479cd5f4cd4632455b
+      id: 838047381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Non-world
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Non-world
+    - name: Objects
+      guid: e1e5e34532ffe749936050f8a309d512
+      id: 1695690031
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: Objects
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\Objects
+    - name: Player
+      guid: 80feb748fc820f4b84ca4deebe9e1325
+      id: 1069431850
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: Player
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\Player
+    - name: Region_Room1
+      guid: 392ae9dc1dfb834da1e6289428e4173b
+      id: 4252897658
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: AUX
+        ObjectType: 2
+      - ElementName: Region_Room1
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\AUX\Region_Room1
+    - name: UI
+      guid: 759a4ade68a5244c9bdbc8c99c2fa197
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: Non-world
+        ObjectType: 2
+      - ElementName: UI
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\Non-world\UI
+    - name: Weapons
+      guid: b6d7d76f446df74292890e93e32acefc
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      - ElementName: Weapons
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World\Weapons
+    - name: World
+      guid: afb3a1c4e90d544a952bab255ea62f50
+      id: 2609808943
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: World
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus\World
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c38f6d66c2648a4daf8f205fd8ccf335
+    GuidInternal: 
+    m_lastTime: -8586008317504574755
+    List:
+    - name: Main
+      guid: 49d7fa4ddc485b44b7f7978fb4a97626
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Ambience.wwu
+    PathAndIcons:
+    - ElementName: Ambience
+      ObjectType: 12
+    ParentPath: Ambience
+    guid: b649aba5e429fd4b89dc64219453d84a
+    GuidInternal: 
+    m_lastTime: -8586008317589046184
+    List:
+    - name: TestEvent
+      guid: f9ea757da1676c4ab3c995247cecf131
+      id: 1097980931
+      PathAndIcons:
+      - ElementName: Ambience
+        ObjectType: 12
+      - ElementName: TestEvent
+        ObjectType: 3
+      Path: Ambience\TestEvent
+      maxAttenuation: 20000000
+      maxDuration: 98360680
+      minDuration: 98360680
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: a7191f8de0c00f4687bdc85bdf7d56c5
+    GuidInternal: 
+    m_lastTime: -8586008317589136844
+    List: []
+  - PhysicalPath: Events\Enemy.wwu
+    PathAndIcons:
+    - ElementName: Enemy
+      ObjectType: 12
+    ParentPath: Enemy
+    guid: f1a49933280e3649aaa78942adb9d848
+    GuidInternal: 
+    m_lastTime: -8586008920093748562
+    List:
+    - name: BB_Attackmode
+      guid: e0136bc82ee17946ade04a9e7c63adf6
+      id: 3038524549
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      - ElementName: BB_Attackmode
+        ObjectType: 3
+      Path: Enemy\Robot_BigBot\BB_Attackmode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: BB_Disengagemode
+      guid: 3c69e29e5f3d7c49adef14aba7419b23
+      id: 2161901004
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      - ElementName: BB_Disengagemode
+        ObjectType: 3
+      Path: Enemy\Robot_BigBot\BB_Disengagemode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: BB_Shot
+      guid: 3f622bbb46abfe438db221bc8f3bc916
+      id: 3798544384
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      - ElementName: BB_Shot
+        ObjectType: 3
+      Path: Enemy\Robot_BigBot\BB_Shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: BB_Talk
+      guid: 16f809a8dc17ca4585fc3029f191f6ed
+      id: 845530298
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      - ElementName: BB_Talk
+        ObjectType: 3
+      Path: Enemy\Robot_BigBot\BB_Talk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: BB_Walk
+      guid: 79b5c342a8f15a48a2907e1a7a8973b2
+      id: 2446826587
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      - ElementName: BB_Walk
+        ObjectType: 3
+      Path: Enemy\Robot_BigBot\BB_Walk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Robot_BigBot
+      guid: 4166af94c6c96743a63d0016c24070d9
+      id: 3619662815
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_BigBot
+        ObjectType: 4
+      Path: Enemy\Robot_BigBot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_SlowBot
+      guid: e1f043826bfe3c47b16ee30c7e67756b
+      id: 1220425636
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      Path: Enemy\Robot_SlowBot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Robot_SwarmBot
+      guid: bf7cb8e7f3f4384e89d7c334768f7978
+      id: 3345701809
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      Path: Enemy\Robot_SwarmBot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SB_Attackmode
+      guid: 24538d246ba8384e8037fea8998a88c1
+      id: 1209594824
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      - ElementName: SB_Attackmode
+        ObjectType: 3
+      Path: Enemy\Robot_SlowBot\SB_Attackmode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SB_Disengagemode
+      guid: fd5c4fc792937749a03190727061e1a4
+      id: 3040392395
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      - ElementName: SB_Disengagemode
+        ObjectType: 3
+      Path: Enemy\Robot_SlowBot\SB_Disengagemode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SB_Shot
+      guid: 00e568140833e745953af7e655f2e7dd
+      id: 2345835853
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      - ElementName: SB_Shot
+        ObjectType: 3
+      Path: Enemy\Robot_SlowBot\SB_Shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SB_Talk
+      guid: 8b6600852ac75d48b48a65b4a3a884fc
+      id: 438427847
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      - ElementName: SB_Talk
+        ObjectType: 3
+      Path: Enemy\Robot_SlowBot\SB_Talk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SB_Walk
+      guid: 873ffb6c7c497f42b51f2b9ae72fa87e
+      id: 4195420710
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SlowBot
+        ObjectType: 4
+      - ElementName: SB_Walk
+        ObjectType: 3
+      Path: Enemy\Robot_SlowBot\SB_Walk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SWB_Attackmode
+      guid: c38493000db66d4f8f8814c1846c0265
+      id: 3224912415
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      - ElementName: SWB_Attackmode
+        ObjectType: 3
+      Path: Enemy\Robot_SwarmBot\SWB_Attackmode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SWB_Disengagemode
+      guid: 712d4a1fad8dba4ea8f2103947a38f2f
+      id: 4198583322
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      - ElementName: SWB_Disengagemode
+        ObjectType: 3
+      Path: Enemy\Robot_SwarmBot\SWB_Disengagemode
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SWB_Shot
+      guid: 31f6e02d52f5bf448e576e8f0cfad720
+      id: 3639071398
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      - ElementName: SWB_Shot
+        ObjectType: 3
+      Path: Enemy\Robot_SwarmBot\SWB_Shot
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SWB_Talk
+      guid: fc47bb556592a3438a40084a9f1d0f44
+      id: 4179514044
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      - ElementName: SWB_Talk
+        ObjectType: 3
+      Path: Enemy\Robot_SwarmBot\SWB_Talk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: SWB_Walk
+      guid: ce25685cb4db624a8225e8184a5c1325
+      id: 2922581777
+      PathAndIcons:
+      - ElementName: Enemy
+        ObjectType: 12
+      - ElementName: Robot_SwarmBot
+        ObjectType: 4
+      - ElementName: SWB_Walk
+        ObjectType: 3
+      Path: Enemy\Robot_SwarmBot\SWB_Walk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  - PhysicalPath: Events\Objects.wwu
+    PathAndIcons:
+    - ElementName: Objects
+      ObjectType: 12
+    ParentPath: Objects
+    guid: b72f9ab4a06b2849842d260d5cbf8de8
+    GuidInternal: 
+    m_lastTime: -8586008329659811958
+    List:
+    - name: Metal_Explosion
+      guid: 3ab208585c295a48904042d9d9929327
+      id: 3115805506
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Explosion
+        ObjectType: 4
+      - ElementName: Metal_Explosion
+        ObjectType: 3
+      Path: Objects\Objects_Explosion\Metal_Explosion
+      maxAttenuation: 20000000
+      maxDuration: 13521297
+      minDuration: 1338024
+    - name: Metal_Impact
+      guid: 08420c58837a4a4abc18bfe7ad64672a
+      id: 287322247
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Impact
+        ObjectType: 4
+      - ElementName: Metal_Impact
+        ObjectType: 3
+      Path: Objects\Objects_Impact\Metal_Impact
+      maxAttenuation: 20000000
+      maxDuration: 987550
+      minDuration: 698303
+    - name: Metal_Shot
+      guid: 44537c378858584a8cce21ba23ae4753
+      id: 3262493669
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_GravityShot
+        ObjectType: 4
+      - ElementName: Metal_Shot
+        ObjectType: 3
+      Path: Objects\Objects_GravityShot\Metal_Shot
+      maxAttenuation: 20000000
+      maxDuration: 1490014
+      minDuration: 1053599
+    - name: Metal_Slide
+      guid: 518284148d72854e8dbd94b597ba0dc1
+      id: 1139657888
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Sliding
+        ObjectType: 4
+      - ElementName: Metal_Slide
+        ObjectType: 3
+      Path: Objects\Objects_Sliding\Metal_Slide
+      maxAttenuation: 20000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_Explosion
+      guid: 05941403c184b245bfafe0ef58e21670
+      id: 3188393555
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Explosion
+        ObjectType: 4
+      Path: Objects\Objects_Explosion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_GravityShot
+      guid: 7a7bf5e11e134646967553fb13443739
+      id: 3697417396
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_GravityShot
+        ObjectType: 4
+      Path: Objects\Objects_GravityShot
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_Impact
+      guid: 8c36fbac84761d42819e59dfacaee31b
+      id: 1744979716
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Impact
+        ObjectType: 4
+      Path: Objects\Objects_Impact
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_PolarityEmitter
+      guid: 990599dfea1c0f4191ae0644a60e5ef1
+      id: 4063451436
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_PolarityEmitter
+        ObjectType: 4
+      Path: Objects\Objects_PolarityEmitter
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_PolarityEmitter_Blue
+      guid: 7f85d87d36a0024dbd31aa714be58fd1
+      id: 2121067659
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_PolarityEmitter
+        ObjectType: 4
+      - ElementName: Objects_PolarityEmitter_Blue
+        ObjectType: 3
+      Path: Objects\Objects_PolarityEmitter\Objects_PolarityEmitter_Blue
+      maxAttenuation: 20000000
+      maxDuration: -1
+      minDuration: -1
+    - name: Objects_PolarityEmitter_Red
+      guid: 8f6f5956819fb14c93f3bff5d75d47b9
+      id: 152250336
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_PolarityEmitter
+        ObjectType: 4
+      - ElementName: Objects_PolarityEmitter_Red
+        ObjectType: 3
+      Path: Objects\Objects_PolarityEmitter\Objects_PolarityEmitter_Red
+      maxAttenuation: 20000000
+      maxDuration: 16000000
+      minDuration: 16000000
+    - name: Objects_Sliding
+      guid: daba84bfd5871f439623d1fbe4e8ff47
+      id: 3396623124
+      PathAndIcons:
+      - ElementName: Objects
+        ObjectType: 12
+      - ElementName: Objects_Sliding
+        ObjectType: 4
+      Path: Objects\Objects_Sliding
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\Player.wwu
+    PathAndIcons:
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Player
+    guid: 3431ba5ca2f91143acf573ed9fe062c3
+    GuidInternal: 
+    m_lastTime: -8586009290819152590
+    List:
+    - name: Player_Jump
+      guid: 84d94bcfa8814f40bf44c477e0a9969b
+      id: 1305133589
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Movement
+        ObjectType: 4
+      - ElementName: Player_Jump
+        ObjectType: 3
+      Path: Player\Player_Movement\Player_Jump
+      maxAttenuation: 0
+      maxDuration: 648708
+      minDuration: 408211
+    - name: Player_Land
+      guid: 4fd6ea38c9f6b547bec2a709e75d50c1
+      id: 3629196698
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Movement
+        ObjectType: 4
+      - ElementName: Player_Land
+        ObjectType: 3
+      Path: Player\Player_Movement\Player_Land
+      maxAttenuation: 0
+      maxDuration: 4849295
+      minDuration: 0
+    - name: Player_Movement
+      guid: a283d9a7c2a2c248b0127cdf3aa9f17d
+      id: 541470702
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Movement
+        ObjectType: 4
+      Path: Player\Player_Movement
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Player_Walk
+      guid: ae2b3dd29a8844478c7a570db95cfa33
+      id: 2147561130
+      PathAndIcons:
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_Movement
+        ObjectType: 4
+      - ElementName: Player_Walk
+        ObjectType: 3
+      Path: Player\Player_Movement\Player_Walk
+      maxAttenuation: 0
+      maxDuration: 632064
+      minDuration: 0
+  - PhysicalPath: Events\Weapons.wwu
+    PathAndIcons:
+    - ElementName: Weapons
+      ObjectType: 12
+    ParentPath: Weapons
+    guid: b88a46a5740af24a9a8a8c4437083fc5
+    GuidInternal: 
+    m_lastTime: -8586008354188341264
+    List:
+    - name: GravityGun
+      guid: 3947a5184afc784c887d0c659e2965d4
+      id: 4267941873
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: GravityGun
+        ObjectType: 4
+      Path: Weapons\GravityGun
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GravityGun_CantShot
+      guid: 6e9e48955ebfe7419dd06fe627beb348
+      id: 890123178
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: GravityGun
+        ObjectType: 4
+      - ElementName: GravityGun_CantShot
+        ObjectType: 3
+      Path: Weapons\GravityGun\GravityGun_CantShot
+      maxAttenuation: 0
+      maxDuration: 612027
+      minDuration: 485766
+    - name: GravityGun_Pickup
+      guid: 59394043e45dbc42a747129e3ffefd46
+      id: 3826658936
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: GravityGun
+        ObjectType: 4
+      - ElementName: GravityGun_Pickup
+        ObjectType: 3
+      Path: Weapons\GravityGun\GravityGun_Pickup
+      maxAttenuation: 0
+      maxDuration: 1489087
+      minDuration: 1112338
+    - name: GravityGun_Shot
+      guid: ff33e749fc49264cb7968af1ce030eeb
+      id: 1988103196
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: GravityGun
+        ObjectType: 4
+      - ElementName: GravityGun_Shot
+        ObjectType: 3
+      Path: Weapons\GravityGun\GravityGun_Shot
+      maxAttenuation: 0
+      maxDuration: 1263553
+      minDuration: 1062517
+    - name: MagnetGun
+      guid: f26fe213439571418fdec23086d10a13
+      id: 1487390835
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      Path: Weapons\MagnetGun
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: MagnetGun_BluePolarity
+      guid: 2e7fe29c90cd0544ba535ab9ef432f7d
+      id: 3467272606
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      - ElementName: MagnetGun_BluePolarity
+        ObjectType: 3
+      Path: Weapons\MagnetGun\MagnetGun_BluePolarity
+      maxAttenuation: 0
+      maxDuration: 5993228
+      minDuration: 3563595
+    - name: MagnetGun_Impact
+      guid: 31c861851595714eb998a2802a37c172
+      id: 803170344
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      - ElementName: MagnetGun_Impact
+        ObjectType: 3
+      Path: Weapons\MagnetGun\MagnetGun_Impact
+      maxAttenuation: 0
+      maxDuration: 2000000
+      minDuration: 2000000
+    - name: MagnetGun_OutOfRange
+      guid: e6bd07a3416e1d48bb03d9e0e2cbbabc
+      id: 3686445524
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      - ElementName: MagnetGun_OutOfRange
+        ObjectType: 3
+      Path: Weapons\MagnetGun\MagnetGun_OutOfRange
+      maxAttenuation: 0
+      maxDuration: 5039684
+      minDuration: 3563595
+    - name: MagnetGun_RedPolarity
+      guid: f9c1e40462bb0540a84a5ec5feabcdd2
+      id: 964917247
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      - ElementName: MagnetGun_RedPolarity
+        ObjectType: 3
+      Path: Weapons\MagnetGun\MagnetGun_RedPolarity
+      maxAttenuation: 0
+      maxDuration: 5993228
+      minDuration: 3563595
+    - name: MagnetGun_ResetPolarities
+      guid: c02fc70256119140bb5d1a3ac76e3ca6
+      id: 122982775
+      PathAndIcons:
+      - ElementName: Weapons
+        ObjectType: 12
+      - ElementName: MagnetGun
+        ObjectType: 4
+      - ElementName: MagnetGun_ResetPolarities
+        ObjectType: 3
+      Path: Weapons\MagnetGun\MagnetGun_ResetPolarities
+      maxAttenuation: 0
+      maxDuration: 2244924
+      minDuration: 2000000
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: ae395191fc0f2940b446b13c4a4d5289
+    GuidInternal: 
+    m_lastTime: -8586008342243735944
+    List:
+    - name: Occlusion
+      guid: 7833f26fbce1ef4dad5d9f9c45ad51f3
+      id: 183903552
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Occlusion
+        ObjectType: 4
+      Path: Default Work Unit\Occlusion
+    - name: RTPC_Occlusion_LoPass
+      guid: 346500b65c31184d9e881cfc3e5ae878
+      id: 222722569
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Occlusion
+        ObjectType: 4
+      - ElementName: RTPC_Occlusion_LoPass
+        ObjectType: 13
+      Path: Default Work Unit\Occlusion\RTPC_Occlusion_LoPass
+    - name: RTPC_Occlusion_Volume
+      guid: 113a9d711cff894b97399b68188afe22
+      id: 342905355
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Occlusion
+        ObjectType: 4
+      - ElementName: RTPC_Occlusion_Volume
+        ObjectType: 13
+      Path: Default Work Unit\Occlusion\RTPC_Occlusion_Volume
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 26f371ce673db84fb354cd22a7558618
+    GuidInternal: 
+    m_lastTime: -8586019547724556222
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 1915eca59b35bc40b8ea3effd0a2c65f
+    GuidInternal: 
+    m_lastTime: -8586014056806795904
+    List: []
+  - PhysicalPath: Switches\General.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: General
+      ObjectType: 12
+    ParentPath: Default Work Unit\General
+    guid: 6fa843b08e9ed5449d7c42520a498b00
+    GuidInternal: 
+    m_lastTime: -8586008922095632221
+    List:
+    - name: Surface_Type
+      guid: 54a8687ed67cf346aa1369fde46c6f02
+      id: 4064446173
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 12
+      - ElementName: Surface_Type
+        ObjectType: 11
+      Path: Default Work Unit\General\Surface_Type
+      values:
+      - name: Metal
+        guid: 0ecea807cbf0ff4a99921c62413ac9e8
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Metal
+          ObjectType: 10
+      - name: Plastic
+        guid: 469f55c075f3314f90018ac5fa742655
+        id: 660835419
+        PathAndIcons:
+        - ElementName: Plastic
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Target_Type
+      guid: 09b2cb6377c38342b607b9ba979c038e
+      id: 898430629
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: General
+        ObjectType: 12
+      - ElementName: Target_Type
+        ObjectType: 11
+      Path: Default Work Unit\General\Target_Type
+      values:
+      - name: Metal
+        guid: eac025140680784990d964cecfe2a4d0
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Metal
+          ObjectType: 10
+      - name: Robot
+        guid: 8ec9ce13e5f4c141aa33537e513a6555
+        id: 1930240631
+        PathAndIcons:
+        - ElementName: Robot
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  - PhysicalPath: Switches\Player.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    - ElementName: Player
+      ObjectType: 12
+    ParentPath: Default Work Unit\Player
+    guid: 72efab64d5f0d042b2fd5dcfcf7a8b5f
+    GuidInternal: 
+    m_lastTime: -8586013485136268556
+    List:
+    - name: Player_FallSpeed
+      guid: 6b22426015cfca4d97224db190b33f20
+      id: 2014408623
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_FallSpeed
+        ObjectType: 11
+      Path: Default Work Unit\Player\Player_FallSpeed
+      values:
+      - name: Fast
+        guid: c8e6bef8326e5048bf6f3decac9ccfcb
+        id: 2965380179
+        PathAndIcons:
+        - ElementName: Fast
+          ObjectType: 10
+      - name: Slow
+        guid: b011df39a55fa84a97f0e508b1913699
+        id: 787604482
+        PathAndIcons:
+        - ElementName: Slow
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Player_MovementSpeed
+      guid: 5058d2bb1a8012438403c729852a869f
+      id: 2471758783
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Player
+        ObjectType: 12
+      - ElementName: Player_MovementSpeed
+        ObjectType: 11
+      Path: Default Work Unit\Player\Player_MovementSpeed
+      values:
+      - name: Run
+        guid: 4fc87c871906504bb2efe4f99d3e8045
+        id: 712161704
+        PathAndIcons:
+        - ElementName: Run
+          ObjectType: 10
+      - name: Walk
+        guid: 658f043d9ae0f8428ceac75dd70160a4
+        id: 2108779966
+        PathAndIcons:
+        - ElementName: Walk
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 38b17edb1da0ed4f848b66e3b7396a09
+    GuidInternal: 
+    m_lastTime: -8586019547722915246
+    List: []
+  ExpandedItems:
+  - /MGP2 - Wwise
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Big Robot
+  m_Controller: {fileID: 9100000, guid: 28f1e669cdfb7a2499bd75b08638bd43, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -203655887218126122, guid: 5462d5cdbcb5c0c42be4224d15967f0b,
+      type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: f874d68255fd67e4188633afa82e6346,
+      type: 3}
+  - m_OriginalClip: {fileID: -203655887218126122, guid: abbd893a20b337040bc738dcc722dfb5,
+      type: 3}
+    m_OverrideClip: {fileID: -2543615655279610959, guid: 5ccf9b8169fe4094b8aa665314b3bf2f,
+      type: 3}

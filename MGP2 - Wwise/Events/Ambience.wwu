@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5AB49B6-29E4-4BFD-89DC-64219453D84A}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{A5AB49B6-29E4-4BFD-89DC-64219453D84A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TestEvent" ID="{7D75EAF9-67A1-4A6C-B3C9-95247CECF131}">
+					<ChildrenList>
+						<Action Name="" ID="{8E429785-584F-4A13-8D37-124D7EDAEC67}" ShortID="688454886">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TestSound" ID="{2768672A-4D68-4414-A6F0-F39839ADBCC6}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Menu" ID="{C195D8D9-C6DB-4232-AC30-B5DEC961F3D1}" ShortID="762452919">
+					<ChildrenList>
+						<Event Name="Menu_Ambience_Start" ID="{0BE611B6-2BDF-46E3-A94C-1D7C3C371819}">
+							<ChildrenList>
+								<Action Name="" ID="{B93240D0-5CEA-477D-AA2F-57EC993A1174}" ShortID="1070086693">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{874B73BC-62B4-4261-8FB8-BF07F7799573}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Menu_Ambience_Stop" ID="{86BA021D-AD1A-4489-B644-5E598F5BA176}">
+							<ChildrenList>
+								<Action Name="" ID="{B4E52EC7-AD31-4739-86F9-10F3D2890239}" ShortID="581443279">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ambience" ID="{874B73BC-62B4-4261-8FB8-BF07F7799573}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

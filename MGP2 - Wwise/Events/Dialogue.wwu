@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EAC99691-25F3-4493-BE54-DC66598C41D7}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Dialogue" ID="{EAC99691-25F3-4493-BE54-DC66598C41D7}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="EvilTwin" ID="{F94C5B7B-64E9-4EDD-9D1C-88550F60BA5D}" ShortID="286169692">
+					<ChildrenList>
+						<Event Name="EvilTwin_Dialogue__LVL1_Reception" ID="{D0C21D99-E371-4E51-8EA7-46CB25CD811D}">
+							<ChildrenList>
+								<Action Name="" ID="{5872CBA9-D61A-4401-A722-F5A629070C01}" ShortID="1055925946">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL1_Reception" ID="{F34686EF-E08F-4C66-9991-931DAEB09B94}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL2_ThrowRockets" ID="{92414FE0-5180-46CA-91C6-DBCBD90526EA}">
+							<ChildrenList>
+								<Action Name="" ID="{64C8CAA1-5BA0-47D8-9B11-D223D0BBC6C1}" ShortID="622914958">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL2_ThrowRockets" ID="{30F5FD1B-1271-43AF-AD94-5EBA4F7E6BD4}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL3_AlertMecLine" ID="{F2EEBC94-513D-4C46-8150-202119151B38}">
+							<ChildrenList>
+								<Action Name="" ID="{DFE18885-E2E7-4C49-BEFC-DC67BD4F255C}" ShortID="152603792">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL3_AlertMecLine" ID="{4C096EBA-0559-4D04-80C1-941CAC87358C}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL4_MAzeStomper" ID="{771C7A11-6EEF-411F-9FD9-F415D93F8AFC}">
+							<ChildrenList>
+								<Action Name="" ID="{4A7FF624-0666-47E7-A7AB-9EEE0F7A15D6}" ShortID="188808275">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL4_MAzeStomper" ID="{C59BD34C-6367-45D7-8741-292DBDFDDFF3}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL5_VerticalStomper" ID="{A313D77B-B195-44C2-A1C5-C643407A353B}">
+							<ChildrenList>
+								<Action Name="" ID="{EC42B5E7-34C9-44D0-B244-1CBC7623A5C6}" ShortID="911925057">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL5_VerticalStomper" ID="{70F35E1E-652A-40E3-A511-860F865F3CE2}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL6_Laser1" ID="{A693D972-DF7B-42D4-9219-C60AF12D313F}">
+							<ChildrenList>
+								<Action Name="" ID="{FC96BBF0-107B-4877-99A2-1BFB0B54F8F1}" ShortID="1069798734">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL6_Laser1" ID="{4A8C300C-E5C1-4BA0-856C-7BBF730418C6}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__LVL9_Final" ID="{70F01986-BAF2-4E1A-A869-266C1B9CC878}">
+							<ChildrenList>
+								<Action Name="" ID="{AFC21F33-D662-423E-90A4-172918624215}" ShortID="971546099">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ LVL9_Final" ID="{F59F3BD1-3AC9-4050-BC19-11515C9D5194}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EvilTwin_Dialogue__End_Cutscene" ID="{801F994E-A626-42CA-90B1-342DC72C5634}">
+							<ChildrenList>
+								<Action Name="" ID="{CB789137-FDBF-4AF5-9A3B-A48C5B03785F}" ShortID="446598861">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="EvilTwin_Dialogue_ End_Cutscene" ID="{B6031036-C300-49CF-90ED-AA93FC244045}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Anchorman" ID="{FA9B6240-1F0D-4A4F-B18B-9770E3CB4169}" ShortID="377010722"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B043A86F-9E8E-44D5-9D7C-42520A498B00}" SchemaVersion="97" RootDocumentID="{A5EC1519-359B-40BC-B8EA-3EFFD0A2C65F}">
+	<Switches>
+		<WorkUnit Name="General" ID="{B043A86F-9E8E-44D5-9D7C-42520A498B00}" OwnerID="{A5EC1519-359B-40BC-B8EA-3EFFD0A2C65F}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="Surface_Type" ID="{7E68A854-7CD6-46F3-AA13-69FDE46C6F02}">
+					<ChildrenList>
+						<Switch Name="Metal" ID="{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}"/>
+						<Switch Name="Plastic" ID="{C0559F46-F375-4F31-9001-8AC5FA742655}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Target_Type" ID="{63CBB209-C377-4283-B607-B9BA979C038E}">
+					<ChildrenList>
+						<Switch Name="Robot" ID="{13CEC98E-F4E5-41C1-AA33-537E513A6555}"/>
+						<Switch Name="Metal" ID="{1425C0EA-8006-4978-90D9-64CECFE2A4D0}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

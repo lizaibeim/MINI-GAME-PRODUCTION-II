@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Locales
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Locales
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7a3e3ef36d14c4e409ac3f287c7d4fd9
+  m_SerializeEntries:
+  - m_GUID: 19ca80b7802b20149971eb5b81cd4f64
+    m_Address: English (en)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    m_mainAssetType: UnityEngine.Localization.Locale, Unity.Localization, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3fbc0328f6d96514e9bc40a8fb12663a
+    m_Address: Danish (da)
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale
+    m_mainAssetType: UnityEngine.Localization.Locale, Unity.Localization, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 57fcd9345c5842b47afb25329317bd16, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 41d10463fd8a2dc42be1f214fb013561, type: 2}
+    - {fileID: 11400000, guid: 3e37c84176b2b23488ed217b429012d7, type: 2}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3399A4F1-0E28-4936-AAA7-8942ADB9D848}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Enemy" ID="{3399A4F1-0E28-4936-AAA7-8942ADB9D848}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Robot_SlowBot" ID="{8243F0E1-FE6B-473C-B16E-E30C7E67756B}" ShortID="577935216">
+					<ChildrenList>
+						<Event Name="SB_Shot" ID="{1468E500-3308-45E7-953A-F7E655F2E7DD}">
+							<ChildrenList>
+								<Action Name="" ID="{394221BD-527A-409C-97E7-402AB44E6AEA}" ShortID="100197603">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlowBot_Shot" ID="{B7C5C0FE-BA8E-4945-9742-5097632A6729}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SB_Walk" ID="{6CFB3F87-497C-427F-B51F-2B9AE72FA87E}">
+							<ChildrenList>
+								<Action Name="" ID="{7A8C751E-7BE8-4304-89AB-DFA142AC6709}" ShortID="918668392">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footstep" ID="{C055509D-72EB-46BF-AB56-10C991A4A06F}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SB_Alert_Attackmode" ID="{248D5324-A86B-4E38-8037-FEA8998A88C1}">
+							<ChildrenList>
+								<Action Name="" ID="{AC567A56-8582-4286-A640-62EA619445C5}" ShortID="432049311">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SlowBot_Alert_Attackmode" ID="{4F47E5BA-DB9A-4123-9088-E7DD737E9706}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SB_Disengagemode" ID="{C74F5CFD-9392-4977-A031-90727061E1A4}"/>
+						<Event Name="SB_Talk" ID="{8500668B-C72A-485D-B48A-65B4A3A884FC}"/>
+						<Event Name="SB_Death" ID="{67B46000-D65C-41A6-BE95-FD2EEF159E23}">
+							<ChildrenList>
+								<Action Name="" ID="{BDBAF657-6A8C-4B22-861B-E2DABA499A3E}" ShortID="1072050466">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Robot_Death" ID="{509D164C-5A23-4D5A-A9BE-9DB5A964E7C3}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Robot_SwarmBot" ID="{E7B87CBF-F4F3-4E38-89D7-C334768F7978}" ShortID="207937693">
+					<ChildrenList>
+						<Event Name="SWB_Shot" ID="{2DE0F631-F552-44BF-8E57-6E8F0CFAD720}"/>
+						<Event Name="SWB_Walk" ID="{5C6825CE-DBB4-4A62-8225-E8184A5C1325}"/>
+						<Event Name="SWB_Alert_Attackmode" ID="{009384C3-B60D-4F6D-8F88-14C1846C0265}"/>
+						<Event Name="SWB_Disengagemode" ID="{1F4A2D71-8DAD-4EBA-A8F2-103947A38F2F}"/>
+						<Event Name="SWB_Talk" ID="{55BB47FC-9265-43A3-8A40-084A9F1D0F44}"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Robot_BigBot" ID="{94AF6641-C9C6-4367-A63D-0016C24070D9}" ShortID="338341714">
+					<ChildrenList>
+						<Event Name="BB_Walk" ID="{42C3B579-F1A8-485A-A290-7E1A7A8973B2}"/>
+						<Event Name="BB_Throw" ID="{BB2B623F-AB46-43FE-8DB2-21BC8F3BC916}"/>
+						<Event Name="BB_Alert_Attackmode" ID="{C86B13E0-E12E-4679-ADE0-4A9E7C63ADF6}"/>
+						<Event Name="BB_Disengagemode" ID="{9EE2693C-3D5F-497C-ADEF-14ABA7419B23}"/>
+						<Event Name="BB_Talk" ID="{A809F816-17DC-45CA-85FC-3029F191F6ED}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

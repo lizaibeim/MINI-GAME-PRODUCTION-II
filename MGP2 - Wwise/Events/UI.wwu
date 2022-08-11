@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40F69193-333B-4292-B293-F7FD7A0F8334}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="UI" ID="{40F69193-333B-4292-B293-F7FD7A0F8334}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="InGame" ID="{73A1DE25-6D04-4DED-B82F-AC6B3E79E0B4}" ShortID="192965085">
+					<ChildrenList>
+						<Event Name="ResetLVL" ID="{A9DECCA2-075F-464E-B6E4-8B1D1C353474}">
+							<ChildrenList>
+								<Action Name="" ID="{1FCE2439-0C82-47FF-A246-3CAB654A482C}" ShortID="658201710">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ingame_reset" ID="{2D3525B7-AD62-4F02-BF6C-01C6E4315E0B}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="OutofGame" ID="{28A23CFE-709A-486D-8065-098155AE60C9}" ShortID="887494009">
+					<ChildrenList>
+						<Event Name="UI_Click" ID="{AC85312E-0861-4728-A838-6EFBCA03D1E5}">
+							<ChildrenList>
+								<Action Name="" ID="{C4B143F9-EE4A-4769-B911-6CA2FE7762D4}" ShortID="1034598721">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Click" ID="{9870D7A1-458F-49D4-A0F9-D7BF0CCAF92B}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Hover" ID="{584484C7-EAF0-4B50-BB0C-BE78AE139680}">
+							<ChildrenList>
+								<Action Name="" ID="{EF0465C8-6BCE-490F-88D9-9988FA4066F3}" ShortID="144230073">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hover" ID="{4F516369-136E-4C30-952C-8FA8ABDC334F}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Start" ID="{D94588B3-BC5D-4B0A-B431-46DAED9C87C8}">
+							<ChildrenList>
+								<Action Name="" ID="{26134E20-70D2-4E9F-9B63-F3400D1BD5A5}" ShortID="676145041">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Start" ID="{0B6102DC-817E-4908-9FAF-792FAC19840B}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="UI_Back" ID="{F3A70BE2-8CE2-49AA-A2C8-D34282449E9D}">
+							<ChildrenList>
+								<Action Name="" ID="{AADE72B3-6F19-4A98-BE25-8E974170A5F3}" ShortID="39786973">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Back" ID="{BA89B70C-2B31-4FF9-9690-A83D33CBB1F9}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Menu" ID="{28611027-3B48-419A-8163-AEAD3A9BB67B}" ShortID="524715580">
+					<ChildrenList>
+						<Event Name="Comic_Intro" ID="{3F4CA4F8-5CF3-4387-9800-22F094949113}">
+							<ChildrenList>
+								<Action Name="" ID="{EFF32D80-DCD9-4DC6-8EA6-3D04FFE84F9D}" ShortID="652342499">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="The Metal Menace intro" ID="{AF534934-2ADC-4C2C-A4AA-4EF15499182F}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Comic_Intro_STOP" ID="{8AA58B0A-1A4D-48CA-9480-C79E4A67785B}">
+							<ChildrenList>
+								<Action Name="" ID="{791A91E4-4CAB-4ADF-9607-E0A1051E9B19}" ShortID="115931305">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="The Metal Menace intro" ID="{AF534934-2ADC-4C2C-A4AA-4EF15499182F}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

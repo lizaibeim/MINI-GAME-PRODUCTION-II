@@ -1,0 +1,69 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1238077023	Combat_State			\Default Work Unit\Combat_State	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Combat_State			
+	1774854754	NonCombet	Combat_State			
+	3373579172	InCombat	Combat_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Reflect Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Reflect Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Reflect Acoustic Textures\Textures\Concrete	
+	1006694123	Music_Volume			\Default Work Unit\Menu\Music_Volume	
+	1564184899	SFX_Volume			\Default Work Unit\Menu\SFX_Volume	
+	1755085759	Wood_Deep			\Factory Reflect Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Reflect Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Reflect Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Reflect Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Reflect Acoustic Textures\Textures\Carpet	
+	2516148294	Sidechain_explosives			\Default Work Unit\Sidechain\Sidechain_explosives	
+	2553017030	Sidechain_objects			\Default Work Unit\Sidechain\Sidechain_objects	
+	2637588553	Tile			\Factory Reflect Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Reflect Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Reflect Acoustic Textures\Textures\Cork_Tiles	
+	3515182670	Sidechain_enemy			\Default Work Unit\Sidechain\Sidechain_enemy	
+	3619359298	Sidechain_weapon			\Default Work Unit\Sidechain\Sidechain_weapon	
+	3670307564	Drywall			\Factory Reflect Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Reflect Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	77978275	Ambient			\Default Work Unit\Master Audio Bus\World\Ambient	
+	673582549	Explosives			\Default Work Unit\Master Audio Bus\World\Objects\Explosives	
+	838047381	Non-world			\Default Work Unit\Master Audio Bus\Non-world	
+	983310469	AUX			\Default Work Unit\Master Audio Bus\World\AUX	
+	1069431850	Player			\Default Work Unit\Master Audio Bus\World\Player	
+	1467963052	Weapons			\Default Work Unit\Master Audio Bus\World\Weapons	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\Non-world\UI	
+	1695690031	Objects			\Default Work Unit\Master Audio Bus\World\Objects	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\World\Enemies	
+	2609808943	World			\Default Work Unit\Master Audio Bus\World	
+	2901534458	PlayerWeapon			\Default Work Unit\Master Audio Bus\World\Weapons\PlayerWeapon	
+	3132815939	EnemyWeapon			\Default Work Unit\Master Audio Bus\World\Weapons\EnemyWeapon	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3823425597	Sidechained_Objects			\Default Work Unit\Master Audio Bus\World\Objects\Sidechained_Objects	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\World\Dialogue	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Non-world\Music	
+	4252897658	Region_Room1			\Default Work Unit\Master Audio Bus\World\AUX\Region_Room1	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1839143019	Coridor			\Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Coridor	
+	3841311380	Instrance			\Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Instrance	
+
+Effect plug-ins	ID	Name	Type				Notes
+	372724691	Sidechain_Meter_(Custom)	Wwise Meter			
+	399162061	Sidechain_Meter_(Custom)	Wwise Meter			
+	718497001	Sidechain_Meter_(Custom)	Wwise Meter			
+	759217908	Sidechain_Meter_(Custom)	Wwise Meter			
+	782604343	Hall_Large_(Custom)	Wwise RoomVerb			
+	921223298	Wwise_Gain_(Custom)	Wwise Gain			
+	1042923610	Sidechain_Meter_(Custom)	Wwise Meter			
+	1992114213	Sidechain_Meter	Wwise Meter			
+	2513915904	Hall_Large	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+	4230635974	Default_Motion_Device	Wwise Motion			
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9975893D-56D6-4A5A-AAF3-70E492A498F5}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Music" ID="{9975893D-56D6-4A5A-AAF3-70E492A498F5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TEST_MusicTest" ID="{E5D5883B-2B5D-49C4-B763-D11E41292EAB}">
+					<ChildrenList>
+						<Action Name="" ID="{4BFB08A4-7352-479B-8757-79137ECF5B43}" ShortID="732379359">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundtrack 2 DEMO 3" ID="{12FF7412-CC6F-4968-89FD-FE60029A8D7E}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TEST_StopMusicTest" ID="{2B062FCD-16F8-4DFA-BD9D-D7B13144900A}">
+					<ChildrenList>
+						<Action Name="" ID="{8FF6EE8A-F973-4191-9BE2-DC4450BEA440}" ShortID="912534734">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soundtrack 2 DEMO 3" ID="{12FF7412-CC6F-4968-89FD-FE60029A8D7E}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusicStart" ID="{09AB962E-7C03-449F-80B7-FFF57F5D4028}">
+					<ChildrenList>
+						<Action Name="" ID="{40C9EDC3-673F-4407-9B4A-CD2EACDB4BB0}" ShortID="5394923">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitchSystem" ID="{DBCD7E41-DACB-4FEA-9418-54C97AEDA8E4}" WorkUnitID="{96ADA282-2F8F-4C70-827C-674B87F34463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GameMusicStop" ID="{C1A65EAE-6BC3-4CE7-8CC2-3E1B95098667}">
+					<ChildrenList>
+						<Action Name="" ID="{1A4DFACC-2308-42E0-9E89-31F212726F54}" ShortID="552320554">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicSwitchSystem" ID="{DBCD7E41-DACB-4FEA-9418-54C97AEDA8E4}" WorkUnitID="{96ADA282-2F8F-4C70-827C-674B87F34463}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lobby_Music_Start" ID="{674A7BF3-97E3-4299-A142-247317E07406}">
+					<ChildrenList>
+						<Action Name="" ID="{8119D62E-9387-4BC0-98B1-6DC49473C022}" ShortID="589430477">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyMusic" ID="{AA4A4A81-E4C9-4880-9C6C-B4CC480092AE}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Lobby_Music_Stop" ID="{C6DE33E4-BC1F-4AAA-BE22-7A9B3E79442F}">
+					<ChildrenList>
+						<Action Name="" ID="{DA0CEE40-54E2-48E9-A02F-5DE55AB8DACF}" ShortID="54271098">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LobbyMusic" ID="{AA4A4A81-E4C9-4880-9C6C-B4CC480092AE}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

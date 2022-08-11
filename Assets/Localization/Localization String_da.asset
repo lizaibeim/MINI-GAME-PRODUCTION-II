@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Localization String_da
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: da
+  m_SharedData: {fileID: 11400000, guid: 91137d6fb952a754ca3513223940c9eb, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 19852877824
+    m_Localized: NYT SPIL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 218323148800
+    m_Localized: INDSTILLINGER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314829889536
+    m_Localized: AFSLUT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 492685156352
+    m_Localized: "V\xC6LG BANE"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6485888393216
+    m_Localized: TILBAGE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 330906694123520
+    m_Localized: SPROG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 349511343210496
+    m_Localized: PAUSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354855494680576
+    m_Localized: "FORTS\xC6T"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1779210311057408
+    m_Localized: GEM SPIL
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

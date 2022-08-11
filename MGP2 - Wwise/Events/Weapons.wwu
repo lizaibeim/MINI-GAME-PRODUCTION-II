@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A5468AB8-0A74-4AF2-9A8A-8C4437083FC5}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Weapons" ID="{A5468AB8-0A74-4AF2-9A8A-8C4437083FC5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="MagnetGun" ID="{13E26FF2-9543-4171-8FDE-C23086D10A13}" ShortID="898255101">
+					<ChildrenList>
+						<Event Name="MagnetGun_BluePolarity" ID="{9CE27F2E-CD90-4405-BA53-5AB9EF432F7D}">
+							<ChildrenList>
+								<Action Name="" ID="{54F471D1-F967-4432-B342-A95CC05E8D03}" ShortID="387158332">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MagnetGun_BluePolarity" ID="{78C8009E-F972-47F3-AF1A-C6962984FFDB}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MagnetGun_RedPolarity" ID="{04E4C1F9-BB62-4005-A84A-5EC5FEABCDD2}">
+							<ChildrenList>
+								<Action Name="" ID="{A080DC5B-3C20-407A-B834-86CDACE7DEAB}" ShortID="516982442">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MagnetGun_RedPolarity" ID="{AFF70E8B-DE39-40ED-935B-A6B19782C5D4}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MagnetGun_Impact" ID="{8561C831-9515-4E71-B998-A2802A37C172}">
+							<ChildrenList>
+								<Action Name="" ID="{C40ADBFC-7905-400E-B235-81F15D46C74F}" ShortID="364949691">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MagnetGun_Impact_Type" ID="{7496CF32-B6D9-4A8F-939C-984C92B05BA0}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MagnetGun_ResetPolarities" ID="{02C72FC0-1156-4091-BB5D-1A3AC76E3CA6}">
+							<ChildrenList>
+								<Action Name="" ID="{9910ABB6-D041-450D-9210-C772E2197230}" ShortID="121477874">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MagnetGun_Reset" ID="{09C6EAFA-C406-4CCC-9DDB-D600F4F52206}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="MagnetGun_OutOfRange" ID="{A307BDE6-6E41-481D-BB03-D9E0E2CBBABC}">
+							<ChildrenList>
+								<Action Name="" ID="{1AE62022-EB8E-4D82-B2CF-B7662F501374}" ShortID="529132993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MagnetGun_OutOfRange" ID="{D0B9CA3A-78B5-4590-8E0E-32E9AAB58997}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="GravityGun" ID="{18A54739-FC4A-4C78-887D-0C659E2965D4}" ShortID="93182324">
+					<ChildrenList>
+						<Event Name="GravityGun_Shot" ID="{49E733FF-49FC-4C26-B796-8AF1CE030EEB}">
+							<ChildrenList>
+								<Action Name="" ID="{65862777-B8FA-4D6C-A2FD-DD48DD5E5F1E}" ShortID="882969308">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GravityGun_Shot" ID="{DEBD4460-2D1B-4938-A276-CF0C7A3D1543}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GravityGun_Pickup" ID="{43403959-5DE4-42BC-A747-129E3FFEFD46}">
+							<ChildrenList>
+								<Action Name="" ID="{B4FA30B0-0A3F-44FE-9748-6978AEF63CDB}" ShortID="1041046996">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GravityGun_Pickup" ID="{6C0DE775-121B-434C-8C70-2A426408FCBD}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="GravityGun_CantShot" ID="{95489E6E-BF5E-41E7-9DD0-6FE627BEB348}">
+							<ChildrenList>
+								<Action Name="" ID="{D7808AD4-9E66-4B96-951B-26000773A268}" ShortID="687025396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="GravityGun_CantShoot" ID="{DF292769-4928-4FBB-9CB7-833FF8C90136}" WorkUnitID="{B671D43C-6936-4454-8FB4-ACDC20C9A64F}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{666D8FC3-64C2-4D8A-AF8F-205FD8CCF335}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{666D8FC3-64C2-4D8A-AF8F-205FD8CCF335}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{4DFAD749-48DC-445B-B7F7-978FB4A97626}">
+					<ObjectInclusionList>
+						<ObjectRef Name="UI" ID="{40F69193-333B-4292-B293-F7FD7A0F8334}" WorkUnitID="{40F69193-333B-4292-B293-F7FD7A0F8334}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player" ID="{5CBA3134-F9A2-4311-ACF5-73ED9FE062C3}" WorkUnitID="{5CBA3134-F9A2-4311-ACF5-73ED9FE062C3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dialogue" ID="{EAC99691-25F3-4493-BE54-DC66598C41D7}" WorkUnitID="{EAC99691-25F3-4493-BE54-DC66598C41D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Objects" ID="{B49A2FB7-6BA0-4928-842D-260D5CBF8DE8}" WorkUnitID="{B49A2FB7-6BA0-4928-842D-260D5CBF8DE8}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Enemy" ID="{3399A4F1-0E28-4936-AAA7-8942ADB9D848}" WorkUnitID="{3399A4F1-0E28-4936-AAA7-8942ADB9D848}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{9975893D-56D6-4A5A-AAF3-70E492A498F5}" WorkUnitID="{9975893D-56D6-4A5A-AAF3-70E492A498F5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Weapons" ID="{A5468AB8-0A74-4AF2-9A8A-8C4437083FC5}" WorkUnitID="{A5468AB8-0A74-4AF2-9A8A-8C4437083FC5}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambience" ID="{A5AB49B6-29E4-4BFD-89DC-64219453D84A}" WorkUnitID="{A5AB49B6-29E4-4BFD-89DC-64219453D84A}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

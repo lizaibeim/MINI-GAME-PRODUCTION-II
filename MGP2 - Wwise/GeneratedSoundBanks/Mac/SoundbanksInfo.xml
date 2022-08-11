@@ -1,0 +1,2038 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\</ProjectRoot>
+		<SourceFilesRoot>C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1839143019" Name="Coridor" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Coridor"/>
+				<AuxBus Id="3841311380" Name="Instrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\World\AUX\Region_Room1\Instrance"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Menu\Music_Volume"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\Menu\SFX_Volume"/>
+				<GameParameter Id="2516148294" Name="Sidechain_explosives" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_explosives"/>
+				<GameParameter Id="2553017030" Name="Sidechain_objects" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_objects"/>
+				<GameParameter Id="3515182670" Name="Sidechain_enemy" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_enemy"/>
+				<GameParameter Id="3619359298" Name="Sidechain_weapon" ObjectPath="\Game Parameters\Default Work Unit\Sidechain\Sidechain_weapon"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3171306428" Name="BB_Alert_Attackmode" ObjectPath="\Events\Enemy\Robot_BigBot\BB_Alert_Attackmode" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2161901004" Name="BB_Disengagemode" ObjectPath="\Events\Enemy\Robot_BigBot\BB_Disengagemode" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="845530298" Name="BB_Talk" ObjectPath="\Events\Enemy\Robot_BigBot\BB_Talk" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="556328520" Name="BB_Throw" ObjectPath="\Events\Enemy\Robot_BigBot\BB_Throw" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2446826587" Name="BB_Walk" ObjectPath="\Events\Enemy\Robot_BigBot\BB_Walk" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1731076807" Name="Comic_Intro" ObjectPath="\Events\UI\Menu\Comic_Intro" DurationType="OneShot" DurationMin="52.573627" DurationMax="52.573627">
+					<IncludedMemoryFiles>
+						<File Id="740527092" Language="SFX">
+							<ShortName>MGP2_ComicIntro.wav</ShortName>
+							<Path>SFX\MGP2_ComicIntro_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3298464706" Name="Comic_Intro_STOP" ObjectPath="\Events\UI\Menu\Comic_Intro_STOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Player\Player_Dmg\Death" DurationType="OneShot" DurationMin="4.818024" DurationMax="4.818024">
+					<IncludedMemoryFiles>
+						<File Id="154796851" Language="SFX">
+							<ShortName>GruntStrainMale_SFXB.2056.wav</ShortName>
+							<Path>SFX\GruntStrainMale_SFXB.2056_C0FBECC3.wem</Path>
+						</File>
+						<File Id="577127859" Language="SFX">
+							<ShortName>DeathTheme.wav</ShortName>
+							<Path>SFX\DeathTheme_DDF0D86A.wem</Path>
+						</File>
+						<File Id="1016646813" Language="SFX">
+							<ShortName>GruntStrainMale_SFXB.2058.wav</ShortName>
+							<Path>SFX\GruntStrainMale_SFXB.2058_5144C84A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="638871986" Name="EvilTwin_Dialogue__End_Cutscene" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__End_Cutscene" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="126227401" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ End_Cutscene.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ End_Cutscene_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1621158397" Name="EvilTwin_Dialogue__LVL1_Reception" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL1_Reception" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="42802007" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL1_Reception.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL1_Reception_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1309708736" Name="EvilTwin_Dialogue__LVL2_ThrowRockets" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL2_ThrowRockets" DurationType="OneShot" DurationMin="6.557192" DurationMax="6.557192">
+					<IncludedMemoryFiles>
+						<File Id="424305006" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL2_ThrowRockets.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL2_ThrowRockets_2E29AAA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1466186661" Name="EvilTwin_Dialogue__LVL3_AlertMecLine" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL3_AlertMecLine" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="946491872" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL3_AlertMecLine.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL3_AlertMecLine_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3930115174" Name="EvilTwin_Dialogue__LVL4_MAzeStomper" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL4_MAzeStomper" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="369171744" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL4_MAzeStomper.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL4_MAzeStomper_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4202095050" Name="EvilTwin_Dialogue__LVL5_VerticalStomper" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL5_VerticalStomper" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="865572015" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL5_VerticalStomper.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL5_VerticalStomper_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2346704237" Name="EvilTwin_Dialogue__LVL6_Laser1" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL6_Laser1" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="184669993" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL6_Laser1.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL6_Laser1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="771764286" Name="EvilTwin_Dialogue__LVL9_Final" ObjectPath="\Events\Dialogue\EvilTwin\EvilTwin_Dialogue__LVL9_Final" DurationType="OneShot" DurationMin="23.000000" DurationMax="23.000000">
+					<IncludedMemoryFiles>
+						<File Id="266739318" Language="SFX">
+							<ShortName>EvilTwin_Dialogue_ LVL9_Final.wav</ShortName>
+							<Path>SFX\EvilTwin_Dialogue_ LVL9_Final_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="72453816" Name="GameMusicStart" ObjectPath="\Events\Music\GameMusicStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="3203677" Language="SFX">
+							<ShortName>PreBattle_unknown.wav</ShortName>
+							<Path>SFX\PreBattle_unknown_D79FB2B7.wem</Path>
+						</File>
+						<File Id="115141667" Language="SFX">
+							<ShortName>PreBattle_Inst 2.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="233406931" Language="SFX">
+							<ShortName>PreBattle_Inst 5.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="381040651" Language="SFX">
+							<ShortName>PreBattle_Inst 3.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="400483960" Language="SFX">
+							<ShortName>PreBattle_Inst 6.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 6_D79FB2B7.wem</Path>
+						</File>
+						<File Id="445424374" Language="SFX">
+							<ShortName>Soundtrack 2 DEMO 3.wav</ShortName>
+							<Path>SFX\Soundtrack 2 DEMO 3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="646281215" Language="SFX">
+							<ShortName>PreBattle_Bass Echo Patterns.wav</ShortName>
+							<Path>SFX\PreBattle_Bass Echo Patterns_D79FB2B7.wem</Path>
+						</File>
+						<File Id="665367064" Language="SFX">
+							<ShortName>PreBattle_Inst 4.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="730796048" Language="SFX">
+							<ShortName>PreBattle_Adding.wav</ShortName>
+							<Path>SFX\PreBattle_Adding_D79FB2B7.wem</Path>
+						</File>
+						<File Id="805117354" Language="SFX">
+							<ShortName>PreBattle_Inst 7.wav</ShortName>
+							<Path>SFX\PreBattle_Inst 7_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A8DD4DC7-999F-42D3-B598-42D344AC76D9}">
+							<Media>
+								<File Id="730796048"/>
+								<File Id="646281215"/>
+								<File Id="115141667"/>
+								<File Id="381040651"/>
+								<File Id="665367064"/>
+								<File Id="233406931"/>
+								<File Id="400483960"/>
+								<File Id="805117354"/>
+								<File Id="3203677"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CD920E32-825F-4636-B004-AC693FEDA6E6}">
+							<Media>
+								<File Id="445424374"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2443163076" Name="GameMusicStop" ObjectPath="\Events\Music\GameMusicStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="890123178" Name="GravityGun_CantShot" ObjectPath="\Events\Weapons\GravityGun\GravityGun_CantShot" DurationType="OneShot" DurationMin="0.485766" DurationMax="0.612027">
+					<IncludedMemoryFiles>
+						<File Id="743501910" Language="SFX">
+							<ShortName>GravityGun_CantShoot_Click.wav</ShortName>
+							<Path>SFX\GravityGun_CantShoot_Click_10C4C929.wem</Path>
+						</File>
+						<File Id="908767177" Language="SFX">
+							<ShortName>GravityGun_CantShoot_Denie.wav</ShortName>
+							<Path>SFX\GravityGun_CantShoot_Denie_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3826658936" Name="GravityGun_Pickup" ObjectPath="\Events\Weapons\GravityGun\GravityGun_Pickup" DurationType="OneShot" DurationMin="1.270381" DurationMax="1.700660">
+					<IncludedMemoryFiles>
+						<File Id="272856059" Language="SFX">
+							<ShortName>GravityGun_Pickup_1.wav</ShortName>
+							<Path>SFX\GravityGun_Pickup_1_10C4C929.wem</Path>
+						</File>
+						<File Id="804500455" Language="SFX">
+							<ShortName>GravityGun_Pickup_4.wav</ShortName>
+							<Path>SFX\GravityGun_Pickup_4_10C4C929.wem</Path>
+						</File>
+						<File Id="863068025" Language="SFX">
+							<ShortName>GravityGun_Pickup_2.wav</ShortName>
+							<Path>SFX\GravityGun_Pickup_2_10C4C929.wem</Path>
+						</File>
+						<File Id="922290485" Language="SFX">
+							<ShortName>GravityGun_Pickup_3.wav</ShortName>
+							<Path>SFX\GravityGun_Pickup_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1988103196" Name="GravityGun_Shot" ObjectPath="\Events\Weapons\GravityGun\GravityGun_Shot" DurationType="OneShot" DurationMin="1.062517" DurationMax="1.263553">
+					<IncludedMemoryFiles>
+						<File Id="125096748" Language="SFX">
+							<ShortName>GravityGun_Shot 14-MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 14-MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="200125475" Language="SFX">
+							<ShortName>GravityGun_Shot 15-Explosion_Futuristic_Impact_Metal_Cyber_Distorted_01.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 15-Explosion_Futuristic_Impact_Metal_Cyber_Distorted_01_10C4C929.wem</Path>
+						</File>
+						<File Id="240783447" Language="SFX">
+							<ShortName>GravityGun_Shot 7-MagnetGun_Reset 10-Bluezone_BC0244_interface_016.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 7-MagnetGun_Reset 10-Bluezone_BC0244_interface_016_10C4C929.wem</Path>
+						</File>
+						<File Id="328656884" Language="SFX">
+							<ShortName>GravityGun_Shot 13-MagnetGun_Shot_ 21-Kick 808 Thud.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 13-MagnetGun_Shot_ 21-Kick 808 Thud_10C4C929.wem</Path>
+						</File>
+						<File Id="534104114" Language="SFX">
+							<ShortName>GravityGun_Shot 19-MagnetGun_Shot_ 34-LaserGun_BW.47463.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 19-MagnetGun_Shot_ 34-LaserGun_BW.47463_10C4C929.wem</Path>
+						</File>
+						<File Id="683751898" Language="SFX">
+							<ShortName>GravityGun_Shot 11-MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 11-MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120_10C4C929.wem</Path>
+						</File>
+						<File Id="849574062" Language="SFX">
+							<ShortName>GravityGun_Shot 5-6-Audio 1.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 5-6-Audio 1_4C0FB83F.wem</Path>
+						</File>
+						<File Id="856270057" Language="SFX">
+							<ShortName>GravityGun_Shot 3-MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 3-MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="982709706" Language="SFX">
+							<ShortName>GravityGun_Shot 18-MACK Whoosh Synth Basic Tonal.wav</ShortName>
+							<Path>SFX\GravityGun_Shot 18-MACK Whoosh Synth Basic Tonal_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3193947170" Name="Hurt" ObjectPath="\Events\Player\Player_Dmg\Hurt" DurationType="OneShot" DurationMin="0.592000" DurationMax="0.976000">
+					<IncludedMemoryFiles>
+						<File Id="168808680" Language="SFX">
+							<ShortName>PunchFace_BW.18244.wav</ShortName>
+							<Path>SFX\PunchFace_BW.18244_10C4C929.wem</Path>
+						</File>
+						<File Id="208209714" Language="SFX">
+							<ShortName>BulletImpactFlesh_BW.54433.wav</ShortName>
+							<Path>SFX\BulletImpactFlesh_BW.54433_10C4C929.wem</Path>
+						</File>
+						<File Id="269718108" Language="SFX">
+							<ShortName>PunchFace_BW.18248.wav</ShortName>
+							<Path>SFX\PunchFace_BW.18248_10C4C929.wem</Path>
+						</File>
+						<File Id="398777897" Language="SFX">
+							<ShortName>BulletImpactHead_BW.54456.wav</ShortName>
+							<Path>SFX\BulletImpactHead_BW.54456_10C4C929.wem</Path>
+						</File>
+						<File Id="463285459" Language="SFX">
+							<ShortName>FightGrunt_BW.54967.wav</ShortName>
+							<Path>SFX\FightGrunt_BW.54967_10C4C929.wem</Path>
+						</File>
+						<File Id="527005872" Language="SFX">
+							<ShortName>FightGrunt_BW.54963.wav</ShortName>
+							<Path>SFX\FightGrunt_BW.54963_10C4C929.wem</Path>
+						</File>
+						<File Id="659910841" Language="SFX">
+							<ShortName>BulletImpactFlesh_BW.54431.wav</ShortName>
+							<Path>SFX\BulletImpactFlesh_BW.54431_10C4C929.wem</Path>
+						</File>
+						<File Id="665130973" Language="SFX">
+							<ShortName>FightGrunt_BW.54964.wav</ShortName>
+							<Path>SFX\FightGrunt_BW.54964_10C4C929.wem</Path>
+						</File>
+						<File Id="841507189" Language="SFX">
+							<ShortName>PunchFace_BW.18247.wav</ShortName>
+							<Path>SFX\PunchFace_BW.18247_10C4C929.wem</Path>
+						</File>
+						<File Id="981532814" Language="SFX">
+							<ShortName>PunchFace_BW.18243.wav</ShortName>
+							<Path>SFX\PunchFace_BW.18243_10C4C929.wem</Path>
+						</File>
+						<File Id="994847719" Language="SFX">
+							<ShortName>PunchFace_BW.18246.wav</ShortName>
+							<Path>SFX\PunchFace_BW.18246_10C4C929.wem</Path>
+						</File>
+						<File Id="1036788273" Language="SFX">
+							<ShortName>FightGrunt_BW.54968.wav</ShortName>
+							<Path>SFX\FightGrunt_BW.54968_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2023124656" Name="Laser_Hit" ObjectPath="\Events\Objects\Objects_Interactebles\Laser\Laser_Hit" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="630287238" Language="SFX">
+							<ShortName>Objects_LaserHit.wav</ShortName>
+							<Path>SFX\Objects_LaserHit_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="230745578" Name="Laser_Static_Start" ObjectPath="\Events\Objects\Objects_Interactebles\Laser\Laser_Static_Start" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="717724244" Language="SFX">
+							<ShortName>Objects_LaserSparks.wav</ShortName>
+							<Path>SFX\Objects_LaserSparks_D79FB2B7.wem</Path>
+						</File>
+						<File Id="887931602" Language="SFX">
+							<ShortName>Objects_LaserStatic.wav</ShortName>
+							<Path>SFX\Objects_LaserStatic_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="823196610" Name="Laser_Static_Stop" ObjectPath="\Events\Objects\Objects_Interactebles\Laser\Laser_Static_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="570772994" Name="Lobby_Music_Start" ObjectPath="\Events\Music\Lobby_Music_Start" MaxAttenuation="24.000000" DurationType="OneShot" DurationMin="200.159027" DurationMax="200.159027">
+					<IncludedMemoryFiles>
+						<File Id="550523185" Language="SFX">
+							<ShortName>LobbyMusic.wav</ShortName>
+							<Path>SFX\LobbyMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1307963258" Name="Lobby_Music_Stop" ObjectPath="\Events\Music\Lobby_Music_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3467272606" Name="MagnetGun_BluePolarity" ObjectPath="\Events\Weapons\MagnetGun\MagnetGun_BluePolarity" DurationType="OneShot" DurationMin="3.363586" DurationMax="6.126232">
+					<IncludedMemoryFiles>
+						<File Id="129907822" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 21-Kick 808 Thud.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 21-Kick 808 Thud_10C4C929.wem</Path>
+						</File>
+						<File Id="194672426" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 15-LaserGun_BW.47457.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 15-LaserGun_BW.47457_10C4C929.wem</Path>
+						</File>
+						<File Id="283231889" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="333966126" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244_10C4C929.wem</Path>
+						</File>
+						<File Id="491912119" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="501504590" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120_10C4C929.wem</Path>
+						</File>
+						<File Id="649392555" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 19-LaserGun_BW.47463.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 19-LaserGun_BW.47463_E3BA06FB.wem</Path>
+						</File>
+						<File Id="750350817" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 23-Gauntlet 11-10-Audio 1.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 23-Gauntlet 11-10-Audio 1_10C4C929.wem</Path>
+						</File>
+						<File Id="761430204" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 33-SciFiElectrical_S08SF.279.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 33-SciFiElectrical_S08SF.279_10C4C929.wem</Path>
+						</File>
+						<File Id="768624057" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 34-LaserGun_BW.47463.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 34-LaserGun_BW.47463_10C4C929.wem</Path>
+						</File>
+						<File Id="890805018" Language="SFX">
+							<ShortName>MagnetGun_Polarity_Blue.wav</ShortName>
+							<Path>SFX\MagnetGun_Polarity_Blue_1F9F1F70.wem</Path>
+						</File>
+						<File Id="892907667" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275_10C4C929.wem</Path>
+						</File>
+						<File Id="1026575827" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 26-Gauntlet 10-GunMachineGun_S011WA.826.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 26-Gauntlet 10-GunMachineGun_S011WA.826_C1AE49CE.wem</Path>
+						</File>
+						<File Id="1055239890" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 28-ElectricDischarge_S011SF.333.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 28-ElectricDischarge_S011SF.333_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="803170344" Name="MagnetGun_Impact" ObjectPath="\Events\Weapons\MagnetGun\MagnetGun_Impact" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.000000">
+					<IncludedMemoryFiles>
+						<File Id="120463081" Language="SFX">
+							<ShortName>MagnetGun_Impact_Robot.wav</ShortName>
+							<Path>SFX\MagnetGun_Impact_Robot_10C4C929.wem</Path>
+						</File>
+						<File Id="587005336" Language="SFX">
+							<ShortName>MagnetGun_Impact_Metal.wav</ShortName>
+							<Path>SFX\MagnetGun_Impact_Metal_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{1425C0EA-8006-4978-90D9-64CECFE2A4D0}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{1425C0EA-8006-4978-90D9-64CECFE2A4D0}">
+							<Media>
+								<File Id="587005336"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{13CEC98E-F4E5-41C1-AA33-537E513A6555}">
+							<Media>
+								<File Id="120463081"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3686445524" Name="MagnetGun_OutOfRange" ObjectPath="\Events\Weapons\MagnetGun\MagnetGun_OutOfRange" DurationType="OneShot" DurationMin="3.841492" DurationMax="5.019348">
+					<IncludedMemoryFiles>
+						<File Id="129907822" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 21-Kick 808 Thud.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 21-Kick 808 Thud_10C4C929.wem</Path>
+						</File>
+						<File Id="333966126" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244_10C4C929.wem</Path>
+						</File>
+						<File Id="491912119" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="501504590" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120_10C4C929.wem</Path>
+						</File>
+						<File Id="892907667" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="964917247" Name="MagnetGun_RedPolarity" ObjectPath="\Events\Weapons\MagnetGun\MagnetGun_RedPolarity" DurationType="OneShot" DurationMin="3.363586" DurationMax="6.108564">
+					<IncludedMemoryFiles>
+						<File Id="129907822" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 21-Kick 808 Thud.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 21-Kick 808 Thud_10C4C929.wem</Path>
+						</File>
+						<File Id="194672426" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 15-LaserGun_BW.47457.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 15-LaserGun_BW.47457_10C4C929.wem</Path>
+						</File>
+						<File Id="283231889" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 27-Gauntlet 8-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="333966126" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 29-Gauntlet 3-SciFiDevice_S08SF.244_10C4C929.wem</Path>
+						</File>
+						<File Id="491912119" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 25-Gauntlet 9-JailDoorPrison_S08ER.304_10C4C929.wem</Path>
+						</File>
+						<File Id="501504590" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 22-BedroomDoorSlam_S08HS.120_10C4C929.wem</Path>
+						</File>
+						<File Id="649392555" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 19-LaserGun_BW.47463.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 19-LaserGun_BW.47463_E3BA06FB.wem</Path>
+						</File>
+						<File Id="750350817" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 23-Gauntlet 11-10-Audio 1.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 23-Gauntlet 11-10-Audio 1_10C4C929.wem</Path>
+						</File>
+						<File Id="761430204" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 33-SciFiElectrical_S08SF.279.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 33-SciFiElectrical_S08SF.279_10C4C929.wem</Path>
+						</File>
+						<File Id="768624057" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 34-LaserGun_BW.47463.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 34-LaserGun_BW.47463_10C4C929.wem</Path>
+						</File>
+						<File Id="783331039" Language="SFX">
+							<ShortName>MagnetGun_Polarity_Red.wav</ShortName>
+							<Path>SFX\MagnetGun_Polarity_Red_0823C1E1.wem</Path>
+						</File>
+						<File Id="892907667" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 24-Gauntlet 14-SciFiElectrical_S08SF.275_10C4C929.wem</Path>
+						</File>
+						<File Id="1026575827" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 26-Gauntlet 10-GunMachineGun_S011WA.826.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 26-Gauntlet 10-GunMachineGun_S011WA.826_C1AE49CE.wem</Path>
+						</File>
+						<File Id="1055239890" Language="SFX">
+							<ShortName>MagnetGun_Shot_ 28-ElectricDischarge_S011SF.333.wav</ShortName>
+							<Path>SFX\MagnetGun_Shot_ 28-ElectricDischarge_S011SF.333_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="122982775" Name="MagnetGun_ResetPolarities" ObjectPath="\Events\Weapons\MagnetGun\MagnetGun_ResetPolarities" DurationType="OneShot" DurationMin="2.000000" DurationMax="2.244924">
+					<IncludedMemoryFiles>
+						<File Id="181879220" Language="SFX">
+							<ShortName>MagnetGun_Reset 12-Bluezone_BC0243_interface_013.wav</ShortName>
+							<Path>SFX\MagnetGun_Reset 12-Bluezone_BC0243_interface_013_10C4C929.wem</Path>
+						</File>
+						<File Id="478852018" Language="SFX">
+							<ShortName>MagnetGun_Reset 10-Bluezone_BC0244_interface_016.wav</ShortName>
+							<Path>SFX\MagnetGun_Reset 10-Bluezone_BC0244_interface_016_10C4C929.wem</Path>
+						</File>
+						<File Id="638064833" Language="SFX">
+							<ShortName>MagnetGun_Reset 13-Bluezone_BC0244_interface_005.wav</ShortName>
+							<Path>SFX\MagnetGun_Reset 13-Bluezone_BC0244_interface_005_10C4C929.wem</Path>
+						</File>
+						<File Id="749226925" Language="SFX">
+							<ShortName>MagnetGun_Reset.wav</ShortName>
+							<Path>SFX\MagnetGun_Reset_10C4C929.wem</Path>
+						</File>
+						<File Id="1006538043" Language="SFX">
+							<ShortName>MagnetGun_Reset 11-Bluezone_BC0243_interface_010.wav</ShortName>
+							<Path>SFX\MagnetGun_Reset 11-Bluezone_BC0243_interface_010_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3297987354" Name="Menu_Ambience_Start" ObjectPath="\Events\Ambience\Menu\Menu_Ambience_Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="542252428" Language="SFX">
+							<ShortName>FactoryHeavyActivity_SFXB.56.wav</ShortName>
+							<Path>SFX\FactoryHeavyActivity_SFXB.56_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1046742455" Language="SFX">
+							<ShortName>DroneMassiveWine_S011IE.105.wav</ShortName>
+							<Path>SFX\DroneMassiveWine_S011IE.105_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3762282674" Name="Menu_Ambience_Stop" ObjectPath="\Events\Ambience\Menu\Menu_Ambience_Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3115805506" Name="Metal_Explosion" ObjectPath="\Events\Objects\Objects_Explosion\Metal_Explosion" MaxAttenuation="130.000000" DurationType="OneShot" DurationMin="1.624000" DurationMax="20.259054">
+					<IncludedMemoryFiles>
+						<File Id="11093250" Language="SFX">
+							<ShortName>Explosion H8 New year 26.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 26_10C4C929.wem</Path>
+						</File>
+						<File Id="32252386" Language="SFX">
+							<ShortName>Explosion H8 New year 30.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 30_10C4C929.wem</Path>
+						</File>
+						<File Id="44360151" Language="SFX">
+							<ShortName>Explosion H8 New year 24.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 24_10C4C929.wem</Path>
+						</File>
+						<File Id="112691066" Language="SFX">
+							<ShortName>Explosion H8 New year 31.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 31_10C4C929.wem</Path>
+						</File>
+						<File Id="195659813" Language="SFX">
+							<ShortName>ExplosionHeavy_SFXB.583.wav</ShortName>
+							<Path>SFX\ExplosionHeavy_SFXB.583_D211D0FF.wem</Path>
+						</File>
+						<File Id="204638260" Language="SFX">
+							<ShortName>DynamiteExplosion_SFXB.563.wav</ShortName>
+							<Path>SFX\DynamiteExplosion_SFXB.563_10C4C929.wem</Path>
+						</File>
+						<File Id="255967357" Language="SFX">
+							<ShortName>Explosion H8 New year 32.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 32_10C4C929.wem</Path>
+						</File>
+						<File Id="323723853" Language="SFX">
+							<ShortName>ExplosionHeavy_SFXB.584.wav</ShortName>
+							<Path>SFX\ExplosionHeavy_SFXB.584_7F2285D3.wem</Path>
+						</File>
+						<File Id="442875797" Language="SFX">
+							<ShortName>Explosion H8 New year 22.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 22_10C4C929.wem</Path>
+						</File>
+						<File Id="478199838" Language="SFX">
+							<ShortName>Explosion H8 New year 33.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 33_10C4C929.wem</Path>
+						</File>
+						<File Id="550789045" Language="SFX">
+							<ShortName>Explosion H8 New year 27.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 27_10C4C929.wem</Path>
+						</File>
+						<File Id="573121657" Language="SFX">
+							<ShortName>Explosion H8 New year 28.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 28_10C4C929.wem</Path>
+						</File>
+						<File Id="583737912" Language="SFX">
+							<ShortName>Explosion H8 New year 23.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 23_10C4C929.wem</Path>
+						</File>
+						<File Id="643234226" Language="SFX">
+							<ShortName>Explosion H8 New year 29.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 29_10C4C929.wem</Path>
+						</File>
+						<File Id="771279321" Language="SFX">
+							<ShortName>Explosion H8 New year 25.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 25_10C4C929.wem</Path>
+						</File>
+						<File Id="776299927" Language="SFX">
+							<ShortName>ExplosionHeavy_SFXB.582.wav</ShortName>
+							<Path>SFX\ExplosionHeavy_SFXB.582_07298674.wem</Path>
+						</File>
+						<File Id="797123774" Language="SFX">
+							<ShortName>Explosion H8 New year 20.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 20_10C4C929.wem</Path>
+						</File>
+						<File Id="815758652" Language="SFX">
+							<ShortName>ExplosionBlast_S08WA.107.wav</ShortName>
+							<Path>SFX\ExplosionBlast_S08WA.107_10C4C929.wem</Path>
+						</File>
+						<File Id="943579662" Language="SFX">
+							<ShortName>ExplosionHeavy_SFXB.581.wav</ShortName>
+							<Path>SFX\ExplosionHeavy_SFXB.581_D2FD15EF.wem</Path>
+						</File>
+						<File Id="948218978" Language="SFX">
+							<ShortName>ExplosionBlast_SFXB.567.wav</ShortName>
+							<Path>SFX\ExplosionBlast_SFXB.567_10C4C929.wem</Path>
+						</File>
+						<File Id="1063502412" Language="SFX">
+							<ShortName>Explosion H8 New year 21.wav</ShortName>
+							<Path>SFX\Explosion H8 New year 21_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="287322247" Name="Metal_Impact" ObjectPath="\Events\Objects\Objects_Impact\Metal_Impact" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="0.450186" DurationMax="4.277514">
+					<IncludedMemoryFiles>
+						<File Id="105547002" Language="SFX">
+							<ShortName>Impact, Metal Object, Strike Metal Garage Wall 1 SND29955 1.wav</ShortName>
+							<Path>SFX\Impact, Metal Object, Strike Metal Garage Wall 1 SND29955 1_10C4C929.wem</Path>
+						</File>
+						<File Id="583801506" Language="SFX">
+							<ShortName>MetalDrumHit_SFXB.2370.wav</ShortName>
+							<Path>SFX\MetalDrumHit_SFXB.2370_10C4C929.wem</Path>
+						</File>
+						<File Id="775043178" Language="SFX">
+							<ShortName>MetalFoldingChair_SFXB.2372.wav</ShortName>
+							<Path>SFX\MetalFoldingChair_SFXB.2372_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3262493669" Name="Metal_Shot" ObjectPath="\Events\Objects\Objects_GravityShot\Metal_Shot" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="1.053599" DurationMax="1.490014">
+					<IncludedMemoryFiles>
+						<File Id="30473355" Language="SFX">
+							<ShortName>Shot_1.wav</ShortName>
+							<Path>SFX\Shot_1_10C4C929.wem</Path>
+						</File>
+						<File Id="599505759" Language="SFX">
+							<ShortName>Shot_2.wav</ShortName>
+							<Path>SFX\Shot_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1139657888" Name="Metal_Slide" ObjectPath="\Events\Objects\Objects_Sliding\Metal_Slide" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="89174658" Language="SFX">
+							<ShortName>Drag.wav</ShortName>
+							<Path>SFX\Drag_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4104935567" Name="Metal_Slide_STOP" ObjectPath="\Events\Objects\Objects_Sliding\Metal_Slide_STOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2121067659" Name="Objects_PolarityEmitter_Blue" ObjectPath="\Events\Objects\Objects_PolarityEmitter\Objects_PolarityEmitter_Blue" MaxAttenuation="10.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="909398560" Language="SFX">
+							<ShortName>MGP2_Polarity_Blue.wav</ShortName>
+							<Path>SFX\MGP2_Polarity_Blue_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="152250336" Name="Objects_PolarityEmitter_Red" ObjectPath="\Events\Objects\Objects_PolarityEmitter\Objects_PolarityEmitter_Red" MaxAttenuation="10.000000" DurationType="OneShot" DurationMin="16.000000" DurationMax="16.000000">
+					<IncludedMemoryFiles>
+						<File Id="118538447" Language="SFX">
+							<ShortName>MGP2_Polarity_Red.wav</ShortName>
+							<Path>SFX\MGP2_Polarity_Red_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1305133589" Name="Player_Jump" ObjectPath="\Events\Player\Player_Movement\Player_Jump" DurationType="OneShot" DurationMin="0.408211" DurationMax="0.648708">
+					<IncludedMemoryFiles>
+						<File Id="25566466" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="45295288" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="59411660" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="101918531" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="107281990" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="122327789" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="124150502" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="176370940" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="176724438" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="187141906" Language="SFX">
+							<ShortName>ClothWipeFabricJean_SFXB.840.wav</ShortName>
+							<Path>SFX\ClothWipeFabricJean_SFXB.840_C3D979F9.wem</Path>
+						</File>
+						<File Id="194509274" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="207160671" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 01_10C4C929.wem</Path>
+						</File>
+						<File Id="212198236" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="215246952" Language="SFX">
+							<ShortName>ClothMovementFabric_SFXB.827.wav</ShortName>
+							<Path>SFX\ClothMovementFabric_SFXB.827_288BAF64.wem</Path>
+						</File>
+						<File Id="228983799" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 09_10C4C929.wem</Path>
+						</File>
+						<File Id="233477160" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="244614522" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="245900417" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="324537912" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="376536060" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="395300618" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="405297490" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="411039686" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="428530283" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="441179488" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="451364459" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="471274537" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="486798462" Language="SFX">
+							<ShortName>ClothMovementFabric_SFXB.828.wav</ShortName>
+							<Path>SFX\ClothMovementFabric_SFXB.828_BD66B21B.wem</Path>
+						</File>
+						<File Id="502813218" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="651052982" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="667725047" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="678687608" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="729358655" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 10_10C4C929.wem</Path>
+						</File>
+						<File Id="735062588" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 09_10C4C929.wem</Path>
+						</File>
+						<File Id="745132054" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="748085067" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 02_10C4C929.wem</Path>
+						</File>
+						<File Id="864829906" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 06.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="877579175" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="911883916" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="912101954" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Tip 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Tip 02_10C4C929.wem</Path>
+						</File>
+						<File Id="912909458" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="916382043" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="925773831" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="929687517" Language="SFX">
+							<ShortName>ClothWipeFabricJean_SFXB.839.wav</ShortName>
+							<Path>SFX\ClothWipeFabricJean_SFXB.839_6F0B2951.wem</Path>
+						</File>
+						<File Id="938683211" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="952141623" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="955664684" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="968942895" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="987482778" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 01_10C4C929.wem</Path>
+						</File>
+						<File Id="992798818" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1003686419" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="1051016667" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1051678677" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 10_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}">
+							<Media>
+								<File Id="912909458"/>
+								<File Id="212198236"/>
+								<File Id="122327789"/>
+								<File Id="101918531"/>
+								<File Id="925773831"/>
+								<File Id="324537912"/>
+								<File Id="411039686"/>
+								<File Id="952141623"/>
+								<File Id="502813218"/>
+								<File Id="244614522"/>
+								<File Id="987482778"/>
+								<File Id="748085067"/>
+								<File Id="451364459"/>
+								<File Id="877579175"/>
+								<File Id="968942895"/>
+								<File Id="376536060"/>
+								<File Id="194509274"/>
+								<File Id="1051016667"/>
+								<File Id="228983799"/>
+								<File Id="1051678677"/>
+								<File Id="678687608"/>
+								<File Id="1003686419"/>
+								<File Id="916382043"/>
+								<File Id="471274537"/>
+								<File Id="25566466"/>
+								<File Id="667725047"/>
+								<File Id="651052982"/>
+								<File Id="955664684"/>
+								<File Id="176724438"/>
+								<File Id="745132054"/>
+								<File Id="207160671"/>
+								<File Id="912101954"/>
+								<File Id="107281990"/>
+								<File Id="441179488"/>
+								<File Id="405297490"/>
+								<File Id="864829906"/>
+								<File Id="124150502"/>
+								<File Id="395300618"/>
+								<File Id="735062588"/>
+								<File Id="729358655"/>
+								<File Id="911883916"/>
+								<File Id="245900417"/>
+								<File Id="59411660"/>
+								<File Id="176370940"/>
+								<File Id="233477160"/>
+								<File Id="938683211"/>
+								<File Id="992798818"/>
+								<File Id="428530283"/>
+								<File Id="45295288"/>
+								<File Id="215246952"/>
+								<File Id="486798462"/>
+								<File Id="929687517"/>
+								<File Id="187141906"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3629196698" Name="Player_Land" ObjectPath="\Events\Player\Player_Movement\Player_Land" DurationType="OneShot" DurationMin="0.000000" DurationMax="4.849295">
+					<IncludedMemoryFiles>
+						<File Id="28754105" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 04.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 04_10C4C929.wem</Path>
+						</File>
+						<File Id="48611896" Language="SFX">
+							<ShortName>ImpactCarHuman_S08IM.256.wav</ShortName>
+							<Path>SFX\ImpactCarHuman_S08IM.256_6A4BB2D5.wem</Path>
+						</File>
+						<File Id="59411660" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="64581904" Language="SFX">
+							<ShortName>M01D RO1 - 110-127 - 05.wav</ShortName>
+							<Path>SFX\M01D RO1 - 110-127 - 05_10C4C929.wem</Path>
+						</File>
+						<File Id="92683673" Language="SFX">
+							<ShortName>M01D RA1 - 01-59 - 01.wav</ShortName>
+							<Path>SFX\M01D RA1 - 01-59 - 01_10C4C929.wem</Path>
+						</File>
+						<File Id="94743913" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 07.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 07_10C4C929.wem</Path>
+						</File>
+						<File Id="101918531" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="122327789" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="128095345" Language="SFX">
+							<ShortName>M01D RO1 - 110-127 - 02.wav</ShortName>
+							<Path>SFX\M01D RO1 - 110-127 - 02_10C4C929.wem</Path>
+						</File>
+						<File Id="128975697" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 14.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 14_10C4C929.wem</Path>
+						</File>
+						<File Id="141249209" Language="SFX">
+							<ShortName>M01D RA1 - 01-59 - 04.wav</ShortName>
+							<Path>SFX\M01D RA1 - 01-59 - 04_10C4C929.wem</Path>
+						</File>
+						<File Id="176370940" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="179243666" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 02.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 02_10C4C929.wem</Path>
+						</File>
+						<File Id="194509274" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="212198236" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="219877430" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 09.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 09_10C4C929.wem</Path>
+						</File>
+						<File Id="228983799" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 09_10C4C929.wem</Path>
+						</File>
+						<File Id="233477160" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="243179027" Language="SFX">
+							<ShortName>HotelRoomBedJump_S08FO.1283.wav</ShortName>
+							<Path>SFX\HotelRoomBedJump_S08FO.1283_EB26EAC5.wem</Path>
+						</File>
+						<File Id="245900417" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="273270726" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 09.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 09_10C4C929.wem</Path>
+						</File>
+						<File Id="302897228" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 06.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 06_10C4C929.wem</Path>
+						</File>
+						<File Id="310045938" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 05.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 05_10C4C929.wem</Path>
+						</File>
+						<File Id="337051203" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="376536060" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="381396534" Language="SFX">
+							<ShortName>S01 CC01DL 110-127 Heel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 110-127 Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="404192214" Language="SFX">
+							<ShortName>M01D RA1 - 01-59 - 05.wav</ShortName>
+							<Path>SFX\M01D RA1 - 01-59 - 05_10C4C929.wem</Path>
+						</File>
+						<File Id="449543576" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 01.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 01_10C4C929.wem</Path>
+						</File>
+						<File Id="451364459" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="494067073" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 07.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 07_10C4C929.wem</Path>
+						</File>
+						<File Id="548573418" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 08.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 08_10C4C929.wem</Path>
+						</File>
+						<File Id="553457582" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 03.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 03_10C4C929.wem</Path>
+						</File>
+						<File Id="559247957" Language="SFX">
+							<ShortName>S01 CC01DL 110-127 Heel 14.wav</ShortName>
+							<Path>SFX\S01 CC01DL 110-127 Heel 14_10C4C929.wem</Path>
+						</File>
+						<File Id="693771854" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 03.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 03_10C4C929.wem</Path>
+						</File>
+						<File Id="707130301" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 04.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 04_10C4C929.wem</Path>
+						</File>
+						<File Id="711637215" Language="SFX">
+							<ShortName>S01 CC01DL 110-127 Heel 15.wav</ShortName>
+							<Path>SFX\S01 CC01DL 110-127 Heel 15_10C4C929.wem</Path>
+						</File>
+						<File Id="719117410" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 02.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 02_10C4C929.wem</Path>
+						</File>
+						<File Id="727129701" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 08.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 08_10C4C929.wem</Path>
+						</File>
+						<File Id="748085067" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 02_10C4C929.wem</Path>
+						</File>
+						<File Id="782148085" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 06.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 06_10C4C929.wem</Path>
+						</File>
+						<File Id="817903473" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 10.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 10_10C4C929.wem</Path>
+						</File>
+						<File Id="856879102" Language="SFX">
+							<ShortName>S01 CC01DL 110-127 Heel 12.wav</ShortName>
+							<Path>SFX\S01 CC01DL 110-127 Heel 12_10C4C929.wem</Path>
+						</File>
+						<File Id="865874995" Language="SFX">
+							<ShortName>M01D RA1 - 01-59 - 03.wav</ShortName>
+							<Path>SFX\M01D RA1 - 01-59 - 03_10C4C929.wem</Path>
+						</File>
+						<File Id="874738045" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 05.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 05_10C4C929.wem</Path>
+						</File>
+						<File Id="876715505" Language="SFX">
+							<ShortName>M01D RO1 - 110-127 - 04.wav</ShortName>
+							<Path>SFX\M01D RO1 - 110-127 - 04_10C4C929.wem</Path>
+						</File>
+						<File Id="877579175" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="911883916" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="912909458" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="925773831" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="939035233" Language="SFX">
+							<ShortName>S01 CC01D - 110-127 - Slide Short 01.wav</ShortName>
+							<Path>SFX\S01 CC01D - 110-127 - Slide Short 01_10C4C929.wem</Path>
+						</File>
+						<File Id="946171015" Language="SFX">
+							<ShortName>M01D RO1 - 110-127 - 01.wav</ShortName>
+							<Path>SFX\M01D RO1 - 110-127 - 01_10C4C929.wem</Path>
+						</File>
+						<File Id="958614463" Language="SFX">
+							<ShortName>M01D RO1 - 110-127 - 03.wav</ShortName>
+							<Path>SFX\M01D RO1 - 110-127 - 03_10C4C929.wem</Path>
+						</File>
+						<File Id="968942895" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="987482778" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 01_10C4C929.wem</Path>
+						</File>
+						<File Id="1000196235" Language="SFX">
+							<ShortName>M01D RA1 - 01-59 - 02.wav</ShortName>
+							<Path>SFX\M01D RA1 - 01-59 - 02_10C4C929.wem</Path>
+						</File>
+						<File Id="1023944143" Language="SFX">
+							<ShortName>S01 CC01D - 01-59 - Slide Short 10.wav</ShortName>
+							<Path>SFX\S01 CC01D - 01-59 - Slide Short 10_10C4C929.wem</Path>
+						</File>
+						<File Id="1051016667" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1051678677" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 10_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}">
+							<DefaultSwitchValue>{39DF11B0-5FA5-4AA8-97F0-E508B1913699}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{39DF11B0-5FA5-4AA8-97F0-E508B1913699}">
+									<Media>
+										<File Id="337051203"/>
+										<File Id="128975697"/>
+										<File Id="449543576"/>
+										<File Id="719117410"/>
+										<File Id="553457582"/>
+										<File Id="28754105"/>
+										<File Id="310045938"/>
+										<File Id="302897228"/>
+										<File Id="494067073"/>
+										<File Id="727129701"/>
+										<File Id="219877430"/>
+										<File Id="1023944143"/>
+										<File Id="92683673"/>
+										<File Id="1000196235"/>
+										<File Id="865874995"/>
+										<File Id="141249209"/>
+										<File Id="404192214"/>
+										<File Id="245900417"/>
+										<File Id="59411660"/>
+										<File Id="233477160"/>
+										<File Id="243179027"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F8BEE6C8-6E32-4850-BF6F-3DECAC9CCFCB}">
+									<Media>
+										<File Id="381396534"/>
+										<File Id="856879102"/>
+										<File Id="559247957"/>
+										<File Id="711637215"/>
+										<File Id="939035233"/>
+										<File Id="179243666"/>
+										<File Id="693771854"/>
+										<File Id="707130301"/>
+										<File Id="874738045"/>
+										<File Id="782148085"/>
+										<File Id="94743913"/>
+										<File Id="548573418"/>
+										<File Id="273270726"/>
+										<File Id="817903473"/>
+										<File Id="946171015"/>
+										<File Id="128095345"/>
+										<File Id="958614463"/>
+										<File Id="876715505"/>
+										<File Id="64581904"/>
+										<File Id="987482778"/>
+										<File Id="748085067"/>
+										<File Id="451364459"/>
+										<File Id="877579175"/>
+										<File Id="968942895"/>
+										<File Id="376536060"/>
+										<File Id="194509274"/>
+										<File Id="1051016667"/>
+										<File Id="228983799"/>
+										<File Id="1051678677"/>
+										<File Id="912909458"/>
+										<File Id="212198236"/>
+										<File Id="122327789"/>
+										<File Id="101918531"/>
+										<File Id="925773831"/>
+										<File Id="911883916"/>
+										<File Id="245900417"/>
+										<File Id="59411660"/>
+										<File Id="176370940"/>
+										<File Id="233477160"/>
+										<File Id="48611896"/>
+										<File Id="243179027"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C0559F46-F375-4F31-9001-8AC5FA742655}">
+							<DefaultSwitchValue>{39DF11B0-5FA5-4AA8-97F0-E508B1913699}</DefaultSwitchValue>
+							<Children/>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2147561130" Name="Player_Walk" ObjectPath="\Events\Player\Player_Movement\Player_Walk" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.645486">
+					<IncludedMemoryFiles>
+						<File Id="6073269" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="13653791" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="25566466" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="29858478" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="45295288" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="47634402" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="57501902" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="57706349" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="59411660" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="71132948" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="101918531" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="122327789" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="132106254" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="160624003" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="166238664" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 02_10C4C929.wem</Path>
+						</File>
+						<File Id="176370940" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="176724438" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="177856463" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="178131214" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="194509274" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="212198236" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="224270512" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="228983799" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 09_10C4C929.wem</Path>
+						</File>
+						<File Id="233477160" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="240244370" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="244614522" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="245900417" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="293779253" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="324537912" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="331512086" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 06.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="337051203" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="376536060" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="378716575" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="403490846" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="411039686" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="415836584" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="428530283" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="444591185" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="446289288" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="447892340" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="448986730" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="451364459" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="471274537" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="483592137" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="485236590" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 06.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="502813218" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 09.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="509452625" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="512972662" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="559918515" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="561928877" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 10_10C4C929.wem</Path>
+						</File>
+						<File Id="588463668" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="589126102" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 09_10C4C929.wem</Path>
+						</File>
+						<File Id="594153596" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 01_10C4C929.wem</Path>
+						</File>
+						<File Id="595118294" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="607648559" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="651052982" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="667725047" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="670940793" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 09.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="678687608" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="695830753" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="705761980" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 10.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 10_10C4C929.wem</Path>
+						</File>
+						<File Id="709112326" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="715410380" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 02.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="729188448" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="745132054" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="748085067" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 02_10C4C929.wem</Path>
+						</File>
+						<File Id="762151307" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="788028528" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="791625345" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="863597957" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Rel 07.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Rel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="870856420" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="877579175" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 04.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 04_10C4C929.wem</Path>
+						</File>
+						<File Id="884873282" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 05.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="905319807" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 04.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="911883916" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 01.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="912909458" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="916382043" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 03.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="922079651" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 03.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 03_10C4C929.wem</Path>
+						</File>
+						<File Id="925773831" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="928436506" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Heel 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="938683211" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="952141623" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Rel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Rel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="955664684" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="968942895" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 05.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 05_10C4C929.wem</Path>
+						</File>
+						<File Id="979730561" Language="SFX">
+							<ShortName>S01 M01DL - 01-59 - Tip 06.wav</ShortName>
+							<Path>SFX\S01 M01DL - 01-59 - Tip 06_10C4C929.wem</Path>
+						</File>
+						<File Id="986336879" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Rel 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Rel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="987482778" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 01.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 01_10C4C929.wem</Path>
+						</File>
+						<File Id="992798818" Language="SFX">
+							<ShortName>S01 CC01DL 60-109 Heel 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 60-109 Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="993944703" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 06.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="1000556145" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Tip 07.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Tip 07_10C4C929.wem</Path>
+						</File>
+						<File Id="1003686419" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Heel 02.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="1019424585" Language="SFX">
+							<ShortName>S01 CC01DL 01-59 Heel 08.wav</ShortName>
+							<Path>SFX\S01 CC01DL 01-59 Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1051016667" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 08.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1051678677" Language="SFX">
+							<ShortName>S01 M01DL - 60-109 - Tip 10.wav</ShortName>
+							<Path>SFX\S01 M01DL - 60-109 - Tip 10_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{C0559F46-F375-4F31-9001-8AC5FA742655}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{07A8CE0E-F0CB-4AFF-9992-1C62413AC9E8}">
+							<DefaultSwitchValue>{3D048F65-E09A-42F8-8CEA-C75DD70160A4}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{3D048F65-E09A-42F8-8CEA-C75DD70160A4}">
+									<Media>
+										<File Id="928436506"/>
+										<File Id="729188448"/>
+										<File Id="709112326"/>
+										<File Id="870856420"/>
+										<File Id="595118294"/>
+										<File Id="448986730"/>
+										<File Id="160624003"/>
+										<File Id="378716575"/>
+										<File Id="29858478"/>
+										<File Id="509452625"/>
+										<File Id="444591185"/>
+										<File Id="57501902"/>
+										<File Id="47634402"/>
+										<File Id="403490846"/>
+										<File Id="863597957"/>
+										<File Id="447892340"/>
+										<File Id="240244370"/>
+										<File Id="178131214"/>
+										<File Id="483592137"/>
+										<File Id="559918515"/>
+										<File Id="177856463"/>
+										<File Id="979730561"/>
+										<File Id="791625345"/>
+										<File Id="415836584"/>
+										<File Id="561928877"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{877CC84F-0619-4B50-B2EF-E4F99D3E8045}">
+									<Media>
+										<File Id="912909458"/>
+										<File Id="212198236"/>
+										<File Id="122327789"/>
+										<File Id="101918531"/>
+										<File Id="925773831"/>
+										<File Id="324537912"/>
+										<File Id="411039686"/>
+										<File Id="952141623"/>
+										<File Id="502813218"/>
+										<File Id="244614522"/>
+										<File Id="987482778"/>
+										<File Id="748085067"/>
+										<File Id="451364459"/>
+										<File Id="877579175"/>
+										<File Id="968942895"/>
+										<File Id="376536060"/>
+										<File Id="194509274"/>
+										<File Id="1051016667"/>
+										<File Id="228983799"/>
+										<File Id="1051678677"/>
+										<File Id="678687608"/>
+										<File Id="1003686419"/>
+										<File Id="916382043"/>
+										<File Id="471274537"/>
+										<File Id="25566466"/>
+										<File Id="667725047"/>
+										<File Id="651052982"/>
+										<File Id="955664684"/>
+										<File Id="176724438"/>
+										<File Id="745132054"/>
+										<File Id="911883916"/>
+										<File Id="245900417"/>
+										<File Id="59411660"/>
+										<File Id="176370940"/>
+										<File Id="233477160"/>
+										<File Id="938683211"/>
+										<File Id="992798818"/>
+										<File Id="428530283"/>
+										<File Id="45295288"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C0559F46-F375-4F31-9001-8AC5FA742655}">
+							<DefaultSwitchValue>{3D048F65-E09A-42F8-8CEA-C75DD70160A4}</DefaultSwitchValue>
+							<Children>
+								<SwitchContainer SwitchValue="{3D048F65-E09A-42F8-8CEA-C75DD70160A4}">
+									<Media>
+										<File Id="71132948"/>
+										<File Id="132106254"/>
+										<File Id="588463668"/>
+										<File Id="293779253"/>
+										<File Id="884873282"/>
+										<File Id="993944703"/>
+										<File Id="788028528"/>
+										<File Id="1019424585"/>
+										<File Id="512972662"/>
+										<File Id="337051203"/>
+										<File Id="695830753"/>
+										<File Id="715410380"/>
+										<File Id="224270512"/>
+										<File Id="905319807"/>
+										<File Id="13653791"/>
+										<File Id="331512086"/>
+										<File Id="6073269"/>
+										<File Id="986336879"/>
+										<File Id="670940793"/>
+										<File Id="607648559"/>
+										<File Id="594153596"/>
+										<File Id="166238664"/>
+										<File Id="922079651"/>
+										<File Id="446289288"/>
+										<File Id="57706349"/>
+										<File Id="485236590"/>
+										<File Id="1000556145"/>
+										<File Id="762151307"/>
+										<File Id="589126102"/>
+										<File Id="705761980"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="4049529127" Name="Radio_START" ObjectPath="\Events\Objects\Objects_Interactebles\Radio_START" MaxAttenuation="24.000000" DurationType="OneShot" DurationMin="200.159027" DurationMax="200.159027">
+					<IncludedMemoryFiles>
+						<File Id="550523185" Language="SFX">
+							<ShortName>LobbyMusic.wav</ShortName>
+							<Path>SFX\LobbyMusic_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3322242893" Name="Radio_STOP" ObjectPath="\Events\Objects\Objects_Interactebles\Radio_STOP" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1908718524" Name="ResetLVL" ObjectPath="\Events\UI\InGame\ResetLVL" DurationType="OneShot" DurationMin="0.750000" DurationMax="0.750000">
+					<IncludedMemoryFiles>
+						<File Id="1041716681" Language="SFX">
+							<ShortName>Ingame_reset.wav</ShortName>
+							<Path>SFX\Ingame_reset_F1D4CC94.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3253446697" Name="SB_Alert_Attackmode" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Alert_Attackmode" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="2.400000" DurationMax="2.400000">
+					<IncludedMemoryFiles>
+						<File Id="17578761" Language="SFX">
+							<ShortName>BigBot_Alarm.wav</ShortName>
+							<Path>SFX\BigBot_Alarm_10C4C929.wem</Path>
+						</File>
+						<File Id="566662590" Language="SFX">
+							<ShortName>BigBot_Alarm_Siren.wav</ShortName>
+							<Path>SFX\BigBot_Alarm_Siren_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3417868313" Name="SB_Death" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Death" MaxAttenuation="15.000000" DurationType="OneShot" DurationMin="2.542712" DurationMax="3.203616">
+					<IncludedMemoryFiles>
+						<File Id="104619431" Language="SFX">
+							<ShortName>Rumble_3.wav</ShortName>
+							<Path>SFX\Rumble_3_10C4C929.wem</Path>
+						</File>
+						<File Id="138581905" Language="SFX">
+							<ShortName>Crash_.wav</ShortName>
+							<Path>SFX\Crash__10C4C929.wem</Path>
+						</File>
+						<File Id="529726724" Language="SFX">
+							<ShortName>Rumble_2.wav</ShortName>
+							<Path>SFX\Rumble_2_10C4C929.wem</Path>
+						</File>
+						<File Id="652073271" Language="SFX">
+							<ShortName>Rumble_4.wav</ShortName>
+							<Path>SFX\Rumble_4_10C4C929.wem</Path>
+						</File>
+						<File Id="773498514" Language="SFX">
+							<ShortName>Rumble_1.wav</ShortName>
+							<Path>SFX\Rumble_1_10C4C929.wem</Path>
+						</File>
+						<File Id="865205266" Language="SFX">
+							<ShortName>Crash_2.wav</ShortName>
+							<Path>SFX\Crash_2_10C4C929.wem</Path>
+						</File>
+						<File Id="880127653" Language="SFX">
+							<ShortName>Rumble_5.wav</ShortName>
+							<Path>SFX\Rumble_5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3040392395" Name="SB_Disengagemode" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Disengagemode" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2345835853" Name="SB_Shot" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Shot" MaxAttenuation="70.000000" DurationType="OneShot" DurationMin="0.258204" DurationMax="0.460067">
+					<IncludedMemoryFiles>
+						<File Id="462445633" Language="SFX">
+							<ShortName>RobotLaserMachineGun_HV.657.wav</ShortName>
+							<Path>SFX\RobotLaserMachineGun_HV.657_5C8BE3EF.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="438427847" Name="SB_Talk" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Talk" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4195420710" Name="SB_Walk" ObjectPath="\Events\Enemy\Robot_SlowBot\SB_Walk" MaxAttenuation="20.000000" DurationType="OneShot" DurationMin="1.654707" DurationMax="2.269168">
+					<IncludedMemoryFiles>
+						<File Id="7239765" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 06.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 06_10C4C929.wem</Path>
+						</File>
+						<File Id="66148717" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 03.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 03_10C4C929.wem</Path>
+						</File>
+						<File Id="267195395" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 05.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 05_10C4C929.wem</Path>
+						</File>
+						<File Id="299495598" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 09.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 09_10C4C929.wem</Path>
+						</File>
+						<File Id="334708768" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 02.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 02_10C4C929.wem</Path>
+						</File>
+						<File Id="517132793" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 01.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 01_10C4C929.wem</Path>
+						</File>
+						<File Id="839796989" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 10.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 10_10C4C929.wem</Path>
+						</File>
+						<File Id="875686000" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 04.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 04_10C4C929.wem</Path>
+						</File>
+						<File Id="938750933" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 08.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 08_10C4C929.wem</Path>
+						</File>
+						<File Id="1000709863" Language="SFX">
+							<ShortName>DB01 M01DL - 110-127 - Heel 07.wav</ShortName>
+							<Path>SFX\DB01 M01DL - 110-127 - Heel 07_10C4C929.wem</Path>
+						</File>
+						<File Id="1032176264" Language="SFX">
+							<ShortName>MGP2_Footsteps_Robot_.wav</ShortName>
+							<Path>SFX\MGP2_Footsteps_Robot__10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2337721651" Name="Stomper_DownMovement" ObjectPath="\Events\Objects\Objects_Interactebles\Stomper\Stomper_DownMovement" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.769047" DurationMax="1.874240">
+					<IncludedMemoryFiles>
+						<File Id="153315857" Language="SFX">
+							<ShortName>Stomper_Down.wav</ShortName>
+							<Path>SFX\Stomper_Down_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2649445310" Name="Stomper_Impact" ObjectPath="\Events\Objects\Objects_Interactebles\Stomper\Stomper_Impact" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.182420" DurationMax="1.278314">
+					<IncludedMemoryFiles>
+						<File Id="250566601" Language="SFX">
+							<ShortName>Stomper_Impact_Low_ 8-DumpsterImpact_BW.60511 (1).wav</ShortName>
+							<Path>SFX\Stomper_Impact_Low_ 8-DumpsterImpact_BW.60511 (1)_10C4C929.wem</Path>
+						</File>
+						<File Id="546038303" Language="SFX">
+							<ShortName>Stomper_Impact_High_.wav</ShortName>
+							<Path>SFX\Stomper_Impact_High__10C4C929.wem</Path>
+						</File>
+						<File Id="739302761" Language="SFX">
+							<ShortName>Stomper_Impact_Low_ 7-DumpsterImpact_BW.60507.wav</ShortName>
+							<Path>SFX\Stomper_Impact_Low_ 7-DumpsterImpact_BW.60507_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="969370648" Name="Stomper_UpMovement" ObjectPath="\Events\Objects\Objects_Interactebles\Stomper\Stomper_UpMovement" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="1.769047" DurationMax="1.874240">
+					<IncludedMemoryFiles>
+						<File Id="425278481" Language="SFX">
+							<ShortName>Stomper_Up.wav</ShortName>
+							<Path>SFX\Stomper_Up_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="255959310" Name="SWB_Alert_Attackmode" ObjectPath="\Events\Enemy\Robot_SwarmBot\SWB_Alert_Attackmode" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4198583322" Name="SWB_Disengagemode" ObjectPath="\Events\Enemy\Robot_SwarmBot\SWB_Disengagemode" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3639071398" Name="SWB_Shot" ObjectPath="\Events\Enemy\Robot_SwarmBot\SWB_Shot" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4179514044" Name="SWB_Talk" ObjectPath="\Events\Enemy\Robot_SwarmBot\SWB_Talk" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2922581777" Name="SWB_Walk" ObjectPath="\Events\Enemy\Robot_SwarmBot\SWB_Walk" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3162426689" Name="TEST_MusicTest" ObjectPath="\Events\Music\TEST_MusicTest" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="445424374" Language="SFX">
+							<ShortName>Soundtrack 2 DEMO 3.wav</ShortName>
+							<Path>SFX\Soundtrack 2 DEMO 3_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3905526265" Name="TEST_StopMusicTest" ObjectPath="\Events\Music\TEST_StopMusicTest" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1097980931" Name="TestEvent" ObjectPath="\Events\Ambience\TestEvent" MaxAttenuation="60.000000" DurationType="OneShot" DurationMin="98.360680" DurationMax="98.360680">
+					<IncludedMemoryFiles>
+						<File Id="538684147" Language="SFX">
+							<ShortName>Evolve_Scifi_Energy.wav</ShortName>
+							<Path>SFX\Evolve_Scifi_Energy_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2024222415" Name="UI_Back" ObjectPath="\Events\UI\OutofGame\UI_Back" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="76814179" Language="SFX">
+							<ShortName>MGP2_UI_Back.wav</ShortName>
+							<Path>SFX\MGP2_UI_Back_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\UI\OutofGame\UI_Click" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="755806424" Language="SFX">
+							<ShortName>MGP2_UI_Click.wav</ShortName>
+							<Path>SFX\MGP2_UI_Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2118900976" Name="UI_Hover" ObjectPath="\Events\UI\OutofGame\UI_Hover" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="966679764" Language="SFX">
+							<ShortName>MGP2_UI_Hover.wav</ShortName>
+							<Path>SFX\MGP2_UI_Hover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1219048826" Name="UI_Start" ObjectPath="\Events\UI\OutofGame\UI_Start" DurationType="OneShot" DurationMin="1.000000" DurationMax="1.000000">
+					<IncludedMemoryFiles>
+						<File Id="1067406620" Language="SFX">
+							<ShortName>MGP2_UI_Start.wav</ShortName>
+							<Path>SFX\MGP2_UI_Start_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="222722569" Name="RTPC_Occlusion_LoPass" ObjectPath="\Game Parameters\Default Work Unit\Occlusion\RTPC_Occlusion_LoPass"/>
+				<GameParameter Id="342905355" Name="RTPC_Occlusion_Volume" ObjectPath="\Game Parameters\Default Work Unit\Occlusion\RTPC_Occlusion_Volume"/>
+				<GameParameter Id="448976980" Name="DistanceToPlayer" ObjectPath="\Game Parameters\Default Work Unit\Player\DistanceToPlayer"/>
+				<GameParameter Id="4039840607" Name="RelativeTime_PreBattleMusic" ObjectPath="\Game Parameters\Default Work Unit\Time\RelativeTime_PreBattleMusic"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="1238077023" Name="Combat_State" ObjectPath="\States\Default Work Unit\Combat_State">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Combat_State\None"/>
+						<State Id="1774854754" Name="NonCombet" ObjectPath="\States\Default Work Unit\Combat_State\NonCombet"/>
+						<State Id="3373579172" Name="InCombat" ObjectPath="\States\Default Work Unit\Combat_State\InCombat"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="898430629" Name="Target_Type" ObjectPath="\Switches\Default Work Unit\General\Target_Type">
+					<Switches>
+						<Switch Id="1930240631" Name="Robot" ObjectPath="\Switches\Default Work Unit\General\Target_Type\Robot"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\General\Target_Type\Metal"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2014408623" Name="Player_FallSpeed" ObjectPath="\Switches\Default Work Unit\Player\Player_FallSpeed">
+					<Switches>
+						<Switch Id="787604482" Name="Slow" ObjectPath="\Switches\Default Work Unit\Player\Player_FallSpeed\Slow"/>
+						<Switch Id="2965380179" Name="Fast" ObjectPath="\Switches\Default Work Unit\Player\Player_FallSpeed\Fast"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2471758783" Name="Player_MovementSpeed" ObjectPath="\Switches\Default Work Unit\Player\Player_MovementSpeed">
+					<Switches>
+						<Switch Id="712161704" Name="Run" ObjectPath="\Switches\Default Work Unit\Player\Player_MovementSpeed\Run"/>
+						<Switch Id="2108779966" Name="Walk" ObjectPath="\Switches\Default Work Unit\Player\Player_MovementSpeed\Walk"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\General\Surface_Type">
+					<Switches>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\General\Surface_Type\Metal"/>
+						<Switch Id="660835419" Name="Plastic" ObjectPath="\Switches\Default Work Unit\General\Surface_Type\Plastic"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

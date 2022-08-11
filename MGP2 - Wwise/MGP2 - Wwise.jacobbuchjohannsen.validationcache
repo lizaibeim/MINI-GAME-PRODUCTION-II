@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="97">
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1598257853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Virtual Acoustics\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Triggers\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Switches\Player.wwu" DateLow="1600258371" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Switches\General.wwu" DateLow="1600714675" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Switches\Default Work Unit.wwu" DateLow="1600201204" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\States\Default Work Unit.wwu" DateLow="1601295810" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1601379177" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\SoundBanks\Default Work Unit.wwu" DateLow="1601295810" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Queries\Factory Queries.wwu" DateLow="1598257798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Queries\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Presets\Factory Spatial Audio.wwu" DateLow="1598257798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Presets\Factory Reflect.wwu" DateLow="1598257853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Presets\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Modulators\Default Work Unit.wwu" DateLow="1601295809" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Mixing Sessions\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\MGP2 - Wwise.wproj" DateLow="1601291522" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\MGP2 - Wwise.jacobbuchjohannsen.wsettings" DateLow="1601383655" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1601379176" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1601379176" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Game Parameters\Default Work Unit.wwu" DateLow="1601379174" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Weapons.wwu" DateLow="1600771466" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\UI.wwu" DateLow="1601383433" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Player.wwu" DateLow="1601295807" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Objects.wwu" DateLow="1601379174" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Music.wwu" DateLow="1601379174" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Enemy.wwu" DateLow="1600948894" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Dialogue.wwu" DateLow="1601295807" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Default Work Unit.wwu" DateLow="1601291708" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Events\Ambience.wwu" DateLow="1601379174" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Reflect.wwu" DateLow="1598257853" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory McDSP Effects.wwu" DateLow="1598257824" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Mastering Suite.wwu" DateLow="1598257856" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Filters.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Dynamics.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Delay.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory iZotope Box Modeler.wwu" DateLow="1598257829" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Effects.wwu" DateLow="1600868179" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Convolution Reverb Effects Stereo.wwu" DateLow="1598257863" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Convolution Reverb Effects Ambisonics.wwu" DateLow="1598257859" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Factory Auro Headphone.wwu" DateLow="1598257849" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Effects\Default Work Unit.wwu" DateLow="1600948894" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1598257798" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Conversion Settings\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Control Surface Sessions\Default Work Unit.wwu" DateLow="1599652113" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Audio Devices\Default Work Unit.wwu" DateLow="1599652160" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Attenuations\Default Work Unit.wwu" DateLow="1600950452" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Unityprojects\DADIU\MINI-GAME-PRODUCTION-II\MGP2\MGP2 - Wwise\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1601379174" DateHigh="0"/>
+</ValidationCache>

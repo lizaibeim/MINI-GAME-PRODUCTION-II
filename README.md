@@ -1,6 +1,6 @@
 # MINI-GAME-PRODUCTION-II
 ## Introduction
-This is a mini-game that is done during the DADIU program. The game mechanism is that the player uses laser magnetic weapons to eliminate the robots for each level. 
+A mini-game. The game mechanism is that the player uses laser magnetic weapons to eliminate the robots for each level. 
 
 
 

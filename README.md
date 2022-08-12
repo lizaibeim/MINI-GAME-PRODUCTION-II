@@ -10,8 +10,7 @@ https://user-images.githubusercontent.com/38242437/184253444-8b88ee96-a252-42c5-
 ![image](https://user-images.githubusercontent.com/38242437/184254504-089ddaac-9772-4801-8802-a13696d03f15.png)
 
 ## Operation
-For operation, the mouse left click would exert a magnetic field on the interactable metal objects in a positive direction, and the right click would exert the negative direction.
-direction magnetic field. When two opposite magnetic objects are close, they attract each other, and when the same magnetic objects are close, they repulse each other.
+For operation, the mouse left click would exert a magnetic field on the interactable metal objects in a positive direction, and the right click would exert the negative direction magnetic field. When two opposite magnetic objects are close, they attract each other, and when the same magnetic objects are close, they repulse each other.
 The player can keep the **E** key pressed or press the **E** key once to hover the objects and use the left or right mouse click to throw them at the enemy.
 
 ![image](https://user-images.githubusercontent.com/38242437/184256188-2cbe7a78-c486-4a1e-9f10-00a3f1e4a840.png)

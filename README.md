@@ -5,7 +5,7 @@ This is a mini-game done during the DADIU program. The game mechanism is that th
 ## Main Menu
 ![image](https://user-images.githubusercontent.com/38242437/184254504-089ddaac-9772-4801-8802-a13696d03f15.png)
 
-## Operation
+## Operation Guidelines
 For operation, the mouse left click would exert a magnetic field on the interactable metal objects in a positive direction, and the right click would exert the negative direction magnetic field. When two opposite magnetic objects are close, they attract each other, and when the same magnetic objects are close, they repulse each other.
 The player can keep the **E** key pressed or press the **E** key once to hover the objects and use the left or right mouse click to throw them at the enemy.
 

@@ -2,7 +2,7 @@
 ## Introduction
 This is a mini-game done during the DADIU program. The game mechanism is that the player uses a laser magnetic weapon to eliminate the robots for each level and either clear obstacles or bridge gaps with the magnetic on the way to the next level.
 
-## Main menu
+## Main Menu
 ![image](https://user-images.githubusercontent.com/38242437/184254504-089ddaac-9772-4801-8802-a13696d03f15.png)
 
 ## Operation
